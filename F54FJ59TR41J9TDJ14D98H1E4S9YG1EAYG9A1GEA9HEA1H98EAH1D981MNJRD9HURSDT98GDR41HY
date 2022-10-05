@@ -1,7 +1,7 @@
 local key = _G.Key
-local check = "https://github.com/Qlethejar/QlehubStorage/blob/main/check.php?key=" .. key
+local check = "https://raw.githubusercontent.com/Qlethejar/QlehubStorage/main/check.php?token=GHSAT0AAAAAABZR3OZHDKT3DC52NBRMZLJ2YZ47PSQ?key=" .. key
 if game:HttpGet(check) == "Whitelisted" then
-loadstring(game:HttpGet("https://github.com/Qlethejar/QlehubStorage/blob/main/script.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Qlethejar/QlehubStorage/main/script.lua?token=GHSAT0AAAAAABZR3OZGCJULBXHWIDCGM3E2YZ47POQ"))()
 else
 game.Players.LocalPlayer:Kick("Invalid Key! Please Rejoin And Try Again.")
 end
