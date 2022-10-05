@@ -1,4 +1,4 @@
 --key hwid
-return{
+{
 ["F9C56578"] = "F9C56578-E016-479C-AB7F-FA8E253B9F32"
 }
