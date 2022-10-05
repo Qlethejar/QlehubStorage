@@ -1,5 +1,5 @@
 local key = _G.Key
-local check = "https://raw.githubusercontent.com/Qlethejar/QlehubStorage/main/check.php?token=GHSAT0AAAAAABZR3OZG7YWDV6NZWOKRZW44YZ5DKJQ?key=" .. key
+local check = "https://raw.githubusercontent.com/Qlethejar/QlehubStorage/main/check.php?key=" .. key
 if game:HttpGet(check) == "Whitelisted" then
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Qlethejar/QlehubStorage/main/script.lua?token=GHSAT0AAAAAABZR3OZHT3AKRWWZLHZBNOGSYZ5DK2Q"))()
 else
