@@ -1,6 +1,2538 @@
-_, Protected_by_MoonSecV2, Discord = 'discord.gg/gQEH2uZxUk'
+local Release = "Beta 7R"
+local NotificationDuration = 6.5
+local RayfieldFolder = "Rayfield"
+local ConfigurationFolder = RayfieldFolder.."/Configurations"
+local ConfigurationExtension = ".rfld"
+
+-- make all TextColor in this script becomes rainbo
+
+-- make the theme dark grey
+
+local RayfieldLibrary = {
+	Flags = {},
+	Theme = {
+		Default = {
+			TextFont = "Default", -- Default will use the various font faces used across Rayfield
+			TextColor = Color3.fromRGB(220, 220, 220),
+
+			Background = Color3.fromRGB(45, 45, 45),
+			Topbar = Color3.fromRGB(40, 40, 40),
+			Shadow = Color3.fromRGB(30, 30, 30),
+
+			NotificationBackground = Color3.fromRGB(60, 60, 60),
+			NotificationActionsBackground = Color3.fromRGB(70, 70, 70),
+
+			TabBackground = Color3.fromRGB(40, 40, 40),
+			TabStroke = Color3.fromRGB(50, 50, 50),
+			TabBackgroundSelected = Color3.fromRGB(70, 70, 70),
+			TabTextColor = Color3.fromRGB(220, 220, 220),
+			SelectedTabTextColor = Color3.fromRGB(255, 255, 255),
+
+			ElementBackground = Color3.fromRGB(35, 35, 35),
+			ElementBackgroundHover = Color3.fromRGB(40, 40, 40),
+			SecondaryElementBackground = Color3.fromRGB(120, 120, 120), -- For labels and paragraphs
+			ElementStroke = Color3.fromRGB(50, 50, 50),
+			SecondaryElementStroke = Color3.fromRGB(50, 50, 50), -- For labels and paragraphs
+
+			SliderBackground = Color3.fromRGB(85, 85, 85),
+			SliderProgress = Color3.fromRGB(120, 120, 120),
+			SliderStroke = Color3.fromRGB(60, 60, 60),
+
+			ToggleBackground = Color3.fromRGB(100, 100, 100),
+			ToggleEnabled = Color3.fromRGB(220, 220, 220),
+			ToggleDisabled = Color3.fromRGB(60, 60, 60),
+			ToggleEnabledStroke = Color3.fromRGB(220, 220, 220),
+			ToggleDisabledStroke = Color3.fromRGB(50, 50, 50),
+			ToggleEnabledOuterStroke = Color3.fromRGB(50, 50, 50),
+			ToggleDisabledOuterStroke = Color3.fromRGB(50, 50, 50),
+
+			InputBackground = Color3.fromRGB(60, 60, 60),
+			InputStroke = Color3.fromRGB(50, 50, 50),
+			PlaceholderColor = Color3.fromRGB(150, 150, 150)
+		}, 
+		Light = {
+            TextFont = "Gotham",
+			TextColor = Color3.fromRGB(220, 220, 220),
+
+			Background = Color3.fromRGB(45, 45, 45),
+			Topbar = Color3.fromRGB(40, 40, 40),
+			Shadow = Color3.fromRGB(30, 30, 30),
+
+			NotificationBackground = Color3.fromRGB(60, 60, 60),
+			NotificationActionsBackground = Color3.fromRGB(70, 70, 70),
+
+			TabBackground = Color3.fromRGB(40, 40, 40),
+			TabStroke = Color3.fromRGB(50, 50, 50),
+			TabBackgroundSelected = Color3.fromRGB(70, 70, 70),
+			TabTextColor = Color3.fromRGB(220, 220, 220),
+			SelectedTabTextColor = Color3.fromRGB(255, 255, 255),
+
+			ElementBackground = Color3.fromRGB(35, 35, 35),
+			ElementBackgroundHover = Color3.fromRGB(40, 40, 40),
+			SecondaryElementBackground = Color3.fromRGB(120, 120, 120), -- For labels and paragraphs
+			ElementStroke = Color3.fromRGB(50, 50, 50),
+			SecondaryElementStroke = Color3.fromRGB(50, 50, 50), -- For labels and paragraphs
+
+			SliderBackground = Color3.fromRGB(85, 85, 85),
+			SliderProgress = Color3.fromRGB(120, 120, 120),
+			SliderStroke = Color3.fromRGB(60, 60, 60),
+
+			ToggleBackground = Color3.fromRGB(100, 100, 100),
+			ToggleEnabled = Color3.fromRGB(220, 220, 220),
+			ToggleDisabled = Color3.fromRGB(60, 60, 60),
+			ToggleEnabledStroke = Color3.fromRGB(220, 220, 220),
+			ToggleDisabledStroke = Color3.fromRGB(50, 50, 50),
+			ToggleEnabledOuterStroke = Color3.fromRGB(50, 50, 50),
+			ToggleDisabledOuterStroke = Color3.fromRGB(50, 50, 50),
+
+			InputBackground = Color3.fromRGB(60, 60, 60),
+			InputStroke = Color3.fromRGB(50, 50, 50),
+			PlaceholderColor = Color3.fromRGB(150, 150, 150)
+		}
+	}
+}
 
 
-,nil,nil;(function() _msec=(function(e,n,o)local C=n[(-#{1,(function()return{','}end)(),",";(function()return#{('BkPhLM'):find("\80")}>0 and 1 or 0 end);",",'}';(function()return{','}end)()}+34)];local K=o[e[(((659610/0x9)/0x69)+-#'im gay')]][e[(-0x67+866)]];local c=(0x84-128)/(((0xbf+((-7410/0x5f)+-#'shlong'))-0x55)+-#'meme strings be like')local r=(-#"Moonsex v5 eta"+(88+(-0x39-(153-0x8a))))-(0x74+-115)local O=o[e[(0x510c/(407-0xe1))]][e[(-#{(function()return{','}end)(),{};(function()return#{('oBLpbM'):find("\76")}>0 and 1 or 0 end),1}+284)]];local L=(((-14569+0x1c4b)/0x63)+75)+(-26+0x1c)local R=o[e[(0x1990b/(0x1e78/40))]][e[(898+-0x14)]]local d=(0x28-38)-((((-1603/0x7)+102)+146)-18)local f=(8+-#{1,",",{},'nil',{}})local p=((-#'if syn request then print your mom then end and then kill yourself'+((-#{(function()return{','}end)();{},'nil','}',187,'}'}+187074)/238))/240)local t=(600/(-#[[elbicho]]+((0x4c59-((9971+-0x7e)+-#'daddy stop trying to crack me'))/47)))local x=(-#'moon on top'+(69+(-#"boronide sucks ass"+((-#{'}';30;",";",",178}+15)-47))))local u=(0x5f+((-75+(((-0x1c+-1043)+-#'arab porn')/0x2d))+0x7))local v=((0x1041/(225+-#{15,(function()return#{('OpmBLm'):find("\109")}>0 and 1 or 0 end),{},(function()return#{('OpmBLm'):find("\109")}>0 and 1 or 0 end),(function()return#{('OpmBLm'):find("\109")}>0 and 1 or 0 end);","}))+-#"iPipeh Is My god")local s=(((-#{97;37,'}';","}+203)+-123)-74)local b=(49+(-329/(11+-#{1;(function()return{','}end)();",",","})))local i=(-98+(((0x33a-(472+-#{{};",",47}))-0xe8)+-#"cilerteddoesntlikeburgers"))local h=(7+-#{(function()return{','}end)();1,'}','nil',{}})local k=(-#'If no father return milk end'+(3360/(21840/(-#{'nil',(function()return{','}end)();27}+198))))local m=(-#{16,(function()return#{('lBlMop'):find("\108")}>0 and 1 or 0 end);",";(function()return{','}end)(),{};'}'}+8)local z=((-0x1d+((0x300/((0x7e+-63)+-0x2f))+-#[[send nudes]]))+-#[[penis]])local B=(36-(-31+((348-0xc3)-90)))local F=(10+-#{(function()return#{('lhHkbH'):find("\72")}>0 and 1 or 0 end),{};{},(function()return#{('lhHkbH'):find("\72")}>0 and 1 or 0 end);98;(function()return{','}end)()})local y=((77+-#{'}',{},'}';",";68;(function()return#{('HfMhoh'):find("\77")}>0 and 1 or 0 end)})+-67)local M=(-#{(function()return{','}end)(),1,'}','}';1,","}+10)local H=(0x63-(-0x61+(-#{'}',(function()return#{('LLLmFp'):find("\76")}>0 and 1 or 0 end),'}',92}+196)))local A=e[(-#[[this code is skidded]]+(0x549+-19))];local V=o[e[((-113+0xf0)+-#'Big black men')]][e[((561+-0x44)+-#"sussy chat sussy sussy")]];local E=o[(function(e)return type(e):sub(1,1)..'\101\116'end)('&%+:$#%_')..'\109\101'..('\116\97'or':;_&++*#')..e[(0x4752/(-#'negative chromosomes'+(0x87-81)))]];local g=o[e[(0x45f-582)]][e[(-#{23;23,(function()return#{('MHFpoH'):find("\70")}>0 and 1 or 0 end),'nil'}+979)]];local S=(0x11a/141)-((((0x62+-101)+-#"Reduce meme string slowmode when plsplspls")+419)/187)local I=(((55+(9+(-31+-0x5d)))+71)+-#[[mstir mid]])-(0x17+-21)local q=o[e[((0x117-158)+-#"mf stfu")]][e[((0x3b0-531)+-#[[freerobuxphone]])]];local n=function(n,e)return n..e end local P=(0x26-34)*(((14186/(0xd0+-126))-0x7c)-0x2d)local T=o[e[(2464-0x4f5)]];local _=(-#'Se men is so tasty'+(3760/0xbc))*((0x17ca/(0x69-84))-0xa2)local G=(-#[[Well thats what they do when they get jealous they confuse it]]+(0x8e4-1191))*(((-#"fix ownerof"+((11970504/0x6c)/39))/149)+-#'beliveri12 is gay')local N=(0x1b6c/(-#[[rule 2 ok]]+(0x6270/((408-0xe3)+-#"shlong"))))local j=((0x33-(186-((2550/(-0x44+83))+-#'Zapperqr is leaker')))+-#[[psx dupe is abd]])*(-0x6e+112)local w=o[e[(0x8ae-1143)]]or o[e[(0x25d+-68)]][e[(0x8ae-1143)]];local a=(-77+((46596/(-#'Asses'+(-37+0xae)))+-#[[sex in fortnite real]]))local e=o[e[(250880/0xc4)]];local R=(function(a)local _,o=1,0x10 local n={j={},v={}}local l=-d local e=o+r while true do n[a:sub(e,(function()e=_+e return e-r end)())]=(function()l=l+d return l end)()if l==(P-d)then l=""o=S break end end local l=#a while e<l+r do n.v[o]=a:sub(e,(function()e=_+e return e-r end)())o=o+d if o%c==S then o=I g(n.j,(q((n[n.v[I]]*P)+n[n.v[d]])))end end return R(n.j)end)("..:::MoonSec::..!*%&/+^,;.:_#$}=+*#=#+__+#:,.$.&;.,=,+^_^*/++^/&&.%=;;;&,%,.+}+^+$///,.##^_,:$:&}&_^,}+/%_#^^/+&/.&=,;./.+;!;,^;^,+;=!$_$*#,}&$,.#^_/,=#}.:=.;++&&;,/}&_&*%,;/,/,^^/^;+!/=/:&%_*#::=:+._}&}#}$$=$%#%_^_=:^._;!.,;;;*^^^%+^^$}%$&#._=!,*/!;==!*.};}^=^++_;=^+/!!*$}_%,+*!*:}_;/;$/;!$}*.#_!^^++!&}:*=;/^_^*+,;}:,.$,/._;!,=,_/++/+,/&/*&!&&#;_!:&..;=$*}!$;%*^++&/.&=,$.=.+;,+$,%^#^&!&}+$*#,_$=}*%!%!!$_}$$;}^#;#_#;/_&_&*%,+};!,;,/^&+=_%}!#$#&_.:.$^/_////!,$&,:&*^&+!/*&,%$/;&&*;.!,_$#}}$$$&#.}*$}:=,#%/*&=&*.;&^++_+*.::%:,,..*,},;^%^.^^&&&:/*&.=}=,*.=}!!}}$*,#^_^*+,_*:#:#.%./;$,++.!%=&}.$=%:!=%:%/$=&^:%;=;+,_#;$^#=_}_#:=.^;};^*%*!!&=.}=%^%_*::;#*_&:..=$$=!}%$_:+^;+./=/+;&:!.+;%;#$!!^=+}_}**=/*&,%.=^!:!=!:.%,$,&^.#%_$_!:/:%.!;/;+,_^:^$!#=&$$$&#.}$$+:^^&/_%!}=:!^#+#&!=.},/!&&%.*=,^,_^:=_=#}&$.#=%.%}*,#,!^!^:.},$^$$#}#&_%_^:#&&%#*_**!,/!^%+_//*#/!%:.;_*:&..;=$*}!$,$_$^++/.&=&+.:.//=*/!&=.}=/_/$/!&/!==:}_;!..;_;*,,_!#/##_,,!/^&*%,*$+^,%,&+}^+/^/+/!%_%%*=$$:!.*;,,$#!$;#$_:#//+/%%$%&*.+_,/+}+%+&%$&=%:&;*:*$,%.:;$;&,../,=^/^=/$&$&&%..%,$^#^+^^^/*_}*#=#+__=/!;!.==}_}!$;$^!}+}/$/&&..,..;=;*/*%#%%,#};$+#_#*=:*+!/!_=!};}=$^$.*,+//.&=&++;+^%*!$!&=.&+!.##:!;!+%%*}._=;.#!},,,^$^&._,;/.*^}:;%/;*.%$}$$/+#^^&.*+$:_;,^+:%.}##:;#^.&.*!$%:#;&!}*/=*#!+&/^&%=#$#:*^=/+!$}=,$,%&/*/$^:_^#&}!:=:_#,$/_&}!!#^:^^,&*%/}^:,,&;%/,%!=^;;,$&=!+$+_^,&^&*%=^_#.#^#%}=_}_:$^_+%*+}+$*.&+/&;*+$,.#^}/$!_}=+;+$/.&=&+,%;^;_^!^;^_^+/}&}&^_+#*_&:..=$==}=!}+#.#%+./=/+,$+:%_=;##^/%:=_!=#=_^&}/;*_=,_#.:+;&#!_#}:#^}/_*_=%_/;}^+=!=^$&:%&+%;*/$}_};&+*%,}=$*+=+/*^=^_;;$/}%!}#$#.}+=%$%!}%:;;;/.*&!^#;;.++^/%.!%$;^:+%%*=^_;;/^+&;!_##:_,:&_**}}:}.=/$&%=,}^:,^%&_%^;!,=,*^,+$#,_%:#.::/%#*,!$!&/++//^&=&^&.*=%%!:**=.&;;,,,^$^&:__/_%:::+;#,.*_!.===+%}}*$$:+,%&*!/}!}$.=;,,$,&_,#/##_=_!:+:!.%,=;&/=/}/!&+!;$_#._=_+=}!/!.=%=*#!}/#}=_+,/,&$&&,.;_,^;/^^^.:,}^$.#=#+!!!/=,:*.#;.,=,+#%#%#&_;_^:../;:,=:**%=$=&}.!+=._};$^.%*!%}%::;%+,!},&+$+&/.;#/=%=}=#..,^=&%*!$&_+,;_+#%_&:..=$_=:=&$:$%,*+}/=/+&_,}/#*.},#&//=.}_}*$,&$%/%_%&*}:/.*;,,$_+$;#&#}.*_!:..!;;&,*_!+=_=*&!/_/.&;%:*:=}!^!.!&};}_%.^^+_+*/,.#$&%=*=*+!_/}^^+_/}&}/;&_#^_*:,.$_/:&;&%&*$}__;.%^.!==_^:%!**!,=$&^+*///;&=!^#!:$:&..!^=/}$$#$:#$_/:#:/$+%=%**,!$/_+}+!/.}.$_#,_$_&#:_.../.%#!:$=:&^}/*^!/%&*%,*$&$%:=!$..^,//^/^##_.:=:+};=%}}}_$#$$$/_._!+=&#%$%&*.+%,*^:^;++,$$$#._=_+=+*/!^=_#,$}$%$/_=_^/%&=&&%.*=,/+%&.=_}$}&$.*,%:*#*+//:*.&;.,=.:;.+/%$+*/_&.%=%+^&;^,/+}^*+;/;&..=#/_,:$:&}!=/=.!_:*^,+$+&^,^&}+!/$^:#%.*=%&}*_!.&^&%+_*:&:*,$/.!}}!_^;!!:=$=*#&.$,*&+#*}*_+&/%^*#=__$._*:*=!/$^_*%=%;%^}/%!^=++/_/*,;/,%,=,_;.;^!&;!$#$:,,_+!%&=*_+&/.$;&,.^=;;,}+,*&}=_$;.*^!=}=_%,}&*%,=%$,/_#&_*:,.$$#=,=%}.###=_:_%.++*%=%+*_;*^;,!^,/}/*&}&.}=*:*#*!#;!*}^=%:!$#:;;^;!;+.=,!.:%*!$!&=.&+/}/$&^*:%%%+*=!/!,:,;*,,^$^&+./=/+,_/%%=*$*&!.+%+:+=&/&:&#&+*}=/:}._.*;,=/$;#_#,#/_::#;!,*.#%/!=!+=_&%/_/:&#&,***:*;*!!_=%:};.^=^++_.._#::./.,;},}^=+&^^+#+,%.&!&,%=*$:_.$.&;.}^$^$;#^;=+*/&&.%=,+,#;&,_%+=$}.$=$+!/$+_:,$/#%==$#*.%^=;%^*+&/.&=,^/**}},^#**=.}=}+/%&%&/%%%^!}!$!;=!_!$=}*$,#.^!/.&_&*%,;/,/,^^/.%=:}*$,#$!/$&_&,}/:*}}##%.;^:%;!^##.=,}:^%=*.!=!+&#++/_%%/_&$&**^}}!%!:=+%&;^^=^++__%_,:^^%:!;/,,,&,!^^+;+^!;/;#=___*:,!^!^=+}%}*$:$/##_=:;$^&%%+*_**%:%+#/!,}:$+#_#*%&*%!/=$=/=,}}}+#;$*#^:;/.&+%_%*^:;%,++=+!/;/!*;&#%^!=:}.=.+;_#_;$^^/!*%$++*&_&*%,,*;+,%^^+#+!+&*#/&%;%,%&.&:%.*;,,$#.#}#%#._:_&^:^+%#*.!=!+,%+%+&/;/^&.%/*:!=%/::;$;&,.._,#^&=$=__=._,./+!_$^_,^;/_%.=}#%;$^!+}:#.$.&;.$%$;$:$&_##//&&.%=%+*_**=,&#+%=*$=$+#_!&%^***#}!!;=,}:!/,!+$+&/.;*:/;=.:+$,#,++#+/:#$}$*#,_$%*!}*^=/./;*,,^$_&#+_!_}:!:&^}.%,#+;*}=+}_}*!%}}_;^#^:%;_,$*:#%:%}%*}!_*;/^&&/=;$;:!,*/=#,_$#*,=/}&*!*#&.&&}.$;$;&,._#;}+$%+=_#+%}%=*=*+!_,.^,+!///+&_;##&_*:,.$$+=;}&}}_%$:#._#;;/*%=%+*_,&,!,*%*/_+,//&$%$_,:$:&.__:;+,_,*^,+$+&/.+*,$%_%**,^_!&=.}=}+$_$*#,_$_&:..=.+;_;*,,^}^&+./=/+&_/&%,*$*/!.*:=+}_}*}.#$#&_::=}^._.*;,:&,&^.^!+++//*&;%$%#*.*&&*=_=*},}^$&#:_=_+_*:*.,;$;/,.^=^++$,#/,&}&&%:*=*+!_*&&,}$}/$.!&#+___*_..$.&;:,=:*^_^*+,+=/&&.&*%+,:**!,=$*&}.$=$,#_#&_,_}:&:_;=;+,=,*.,+$+&/.&=&+%_%&*,**!&=.}=}+$_$*#;_$_&:.:*.+;_;*,,^}^&+:/=/,&_/&%,*$*+!.+}=+}_}*=,#$#&__:=:,._$;;,;=#.^.^&++_;/*&,%$%&^/!=!,=_=+},$=$&}._=_+:$:*..;$#^,.^=^++_+&/,&=&&%_*=%,!_!*=:}$+;$.#=#+$__*:,:!.&;#,=_%^_^*+,/$/,&.&*%+*_***.=$=&}}$=!!#_#*_,:$:&...%;+;!,*^.+$,&/.&=&.%_%/*,,#!&!_}=}+}!$*#;_$_&:._*$=;_;,,,$^^&+./=+,;+&*%}*$,+!.===+}_=#$,$/#&_::=:+._.*:$,$,.^.+=+++&/*&_+.%&*.!=&==_=%},=$$,#.#:_+_+:*=$;$.+#=^=,%+_;_/,&$&&%.%=*+*^!*!/}$}+$.$+#=___#:,$,.&;:,=,+^_^+;&/$/&&.^.%+*#**%,===&}}$=$:#_&!_,_=}$...:;+#$,*^,+$+&+}&=/*%_%_*,!$!&=.!;}+}^$*#._$_+:.:+.=;_;#,,.$^&+:/=/+&_&++&*$*&!.%==+}#}*$_=.#&_.:=$=._.%;,;_,_^._^++,}/*&;%$%;*.*&&*=_=*},*!$&#:_=_.$,:*.,;$_$,.,!^+^$._/,/;&&;;*=*+!_%*&$}$}}$.$:#+!&_*#,.$.&./,=;!^_^^+,^$/&&.&:%+%^**++=$!+}.$=}%#_*%_,:$:&..;=;+;^,*,/+$+//.&=&+%_%**,!}!&=.}=}_&.$*#$_$$,:.:!.+;$;*,_..^&+./=^.&_&%%,%=+$!.!+=+%^}*$,#$$+_}:=:#._:*;,,$,&^.+=+++&/*&_%$%&*.%*!+=_=:},}#$&#._=_+:_:*:*;$;+,.^=^++_+*/,//&&&!*=*=!_!*=,}$}.$.$*#+_#_*_..$.&;=,=#*^_^*+,^$/&&.&+%+%***%$=$=.}.$=$_#_%^_,:}:&.$;=;.:,,*^,+$_;/./!&+&$^_*,*&!&/+}=}+$_=*=$_$_.:.:+.+_*;*,,^$^&+=/=/^&_&,%,%=*&!.!^=+/:}*$,#$}&_.:=:#._.;;,#/,&,_+=+++//*:/%$%&*.!=!+=_=;},}^$&#__=$+:_:*.};$;:,._%^++_+*/,//&&%_*=*,!_!,=,}$}.$.%%#+_#_*:}.$.,_+,=,+^__/+,/}/&&$+_%+*_**^+=$=/}.=**=#_#,_,$.:&..;=.,:#,*^}+$_%/.&=&+/_%**,*/!&!!}==^$_}&#,_$_#:.##.+;_;*,,^$^&^!/=/}&_&*%,*$*&!.!+=+}_}*$.#$#&_.:=:_._.%;,,},&,_+=+++*/*&:%$%&*.%*!+=_=;},+*$&#._=_+:_:*.$;$;+,.,!^++=+*/,&$&&./*=*^!_*&/*}$}.$.%}#+___*#,}/.&;=,=,_^_:.+,^$/&&.&+%+%***!#=$*&}.$=$_#_#,_,=_:&:_;=;+;&,*_:+$+&/.&=&+%_%,*,*+!&=:}=}.$_$*#,_$*}:.:!.+.$#_,,,&^&_;/=/+&_+*^_*$*.!.!+=+&&}*=,#$#&_=:=:_._.^;,.$,&^.^++++*/*;+%$&+*.!=!$=_//},$$$&#._=_+_*:*.=;$;/,.^=^_+_+*/,&}&&%.*=*,!_!*=,}=}&$.#=/.___*:,.$.&;.,=,+$/^^+,/$/&;&/,*^=%#&%+=$=&}.=*%_#_#&_,:}:&..;=.,$*,*^:+$+//.&=&+&$^_*,**!&=_}=}+$_$,%%_$_;:..=.+;#;*,_^$^&,*/=/+&_&&%,*$*&!.*,=+}_}*$,#$#&_.:=_$._.*;,;!,&^.+=++^&/*&,%$%/*.!=!+=_%*},}*$&#__=_^:_:,$&;$;&,.;.^++#+*/;&$&,++*=*+!_*_=,}}}&$=$%#+___*_+.$./;.;!,+^=;$+,/$/&/,%=%^*_*+&&=$=&}.=.$+###*_$}.:&.:;=.=,_,%^,+$+&/$^_&+%_%*&*!$!/=.}=*}$_$+#,_=_&:#.=.+#/;*,#^$^^+.+*/+/*&/%,%**&*}===^}_}^$,$*}=_.:=:+_!.*;;,$,,.++=++/_+_&,%}%&*./;!+===*}.$$$^#._=}}:_:^.,.!;&,_^=^_.,+*/_&$/$%.%!*+*!!*=_*.}&$.#=$=___%:,:*_=;.,=,+;^^*+;/$/&;^%=%.*_**!,=$=&}.*&$+#=#*_;:$:&..;=.;,_,+^,+=+&/.&=&+&*%**,!$!/=.}=}+$#$*#,_$_&:..=.+.%;*,,^$^&^+/=/+&_&%%,*$*&!.===+}_}*$,#$#&_.:=:+._.*;,,$,&^.+=++/_/*&,%$%^*.!=!+=_=*},$$$&#._=_+:_:*.,;$;&,.,*^++_+*/,&$&&%.*=*^!_!*=,}$}&$.#=#+_$_.:,.$.&;:;_,+^_^*;+^$&}=_}&_;;,&;!/=/#;.*:&$;#_#*_,=:#$;_!+;.,_,*^,..;*/$!=$%%=%**,!$/!*^}!#%#,$*#,_$_&:..=!+#_#^,,^$^&+./,/_&_&*%,^:&#!_$&:.,&*,$,#$#&_.:=:+;_$!:;,$,&^.,*.=/_//&,%}%&*.!=!+*==*}:$$$^#.#!_+_*:_.,.!;&;!^=^^+_+*/,/*+=%.*=*+*%!*=;}$=+%&#=#;___%:,.$.&;.:&,+^}^*+:/$//&.%=&;*_*/!,===&}.$=},%*#*_::$:_..;=;+;$.}^,^*+&/=&=&+%_&&*,!$!;=.=,}+$_$*#,_$_&:=.=.+;_;*,,,=^&+.+^/+/&&*%,*$*,!.===:}_=}$,#}#&_.#/:+:/.*;_,$,&^.,*^,/_/_&,&/%&*.!=%+=_=*=*$$$$#.#&_+#_:*.,.;;&,.^=^,+_+*/,&$/!%.%,*+!_!*=,}$}&},#=#$___*:,.$.&;.;:,+,.^*+./$^&&.%=&!*_*#!,!!=&}.$=$+$^#*_.:$:+..;=;+,_,#^,^;+&/#&=++%_%*%%!$!}=.=/}+$_$*#,#,_&:_.=.,;_;*,,^$^,+.+;/+/+&*%,*$*&*%===;}_}&$,}$#&_._%:+:/.*;#,$,,,=+=+:/_/}&,%}%&%_+.!+!!=*};$$$&#._=$^:_:^.,;};&,$^=^+^}+*/_&$&+%.*=*+!_!,=,}$}&$:#=#+___*:,.$.&;#,=");local g=((235-0x90)-81)local o=39 local l=d;local e={}e={[(49-0x30)]=function()local e,r,n,d=O(R,l,l+L);l=l+j;o=(o+(g*j))%a;return(((d+o-(g)+_*(j*c))%_)*((c*G)^c))+(((n+o-(g*c)+_*(c^L))%a)*(_*a))+(((r+o-(g*L)+G)%a)*_)+((e+o-(g*j)+G)%a);end,[(75-(0x2910/144))]=function(e,e,e)local e=O(R,l,l);l=l+r;o=(o+(g))%a;return((e+o-(g)+G)%_);end,[(-0x53+86)]=function()local n,e=O(R,l,l+c);o=(o+(g*c))%a;l=l+c;return(((e+o-(g)+_*(c*j))%_)*a)+((n+o-(g*c)+a*(c^L))%_);end,[(-0x2a+((-0x56+153)+-#"bring MoonSec v3 back"))]=function(n,e,o)if o then local e=(n/c^(e-d))%c^((o-r)-(e-d)+r);return e-e%d;else local e=c^(e-r);return(n%(e+e)>=e)and d or I;end;end,[((405/0x2d)+-#'yiff')]=function()local n=e[((3840/0xf0)+-#[[Russian letters]])]();local o=e[(91+-0x5a)]();local i=d;local l=(e[(46-0x2a)](o,r,P+j)*(c^(P*c)))+n;local n=e[(0x47-67)](o,21,31);local e=((-d)^e[(-#[[if found dad when back from milk then print yay end]]+(((0x19c7da/229)+-#"Hey skid")/0x86))](o,32));if(n==I)then if(l==S)then return e*I;else n=r;i=S;end;elseif(n==(_*(c^L))-r)then return(l==I)and(e*(r/S))or(e*(I/S));end;return K(e,n-((a*(j))-d))*(i+(l/(c^N)));end,[((-#"Deeznutsbutinlualoo"+(0x672/30))-0x1e)]=function(n,i,i)local i;if(not n)then n=e[(84+-0x53)]();if(n==I)then return'';end;end;i=V(R,l,l+n-d);l=l+n;local e=''for n=r,#i do e=A(e,q((O(V(i,n,n))+o)%a))o=(o+g)%_ end return e;end}local function N(...)return{...},T('#',...)end local function V()local i={};local k={};local n={};local h={i,k,nil,n};local o={}local f=(-84+0x79)local l={[((830/0x53)+-#[[fwunmbl]])]=(function(n)return not(#n==e[(-0x1d+31)]())end),[(-#[[suck my dicky giggas]]+(2926/0x85))]=(function(n)return e[((120-0x61)+-#"free bobux no skem")]()end),[(-#[[pairu sucks dick]]+(100/0x5))]=(function(n)return e[(56+-0x32)]()end),[(75+-0x4a)]=(function(n)local o=e[((1968/0x7b)+-#[[i want sex]])]()local e=''local n=1 for l=1,#o do n=(n+f)%a e=A(e,q((O(o:sub(l,l))+n)%_))end return e end)};local n=e[(0x75-116)]()for n=1,n do local e=e[(129-0x7f)]();local d;local e=l[e%(-#"Im devastating more than ever demonstrating"+(124+(-0x94c/35)))];o[n]=e and e({});end;for a=1,e[(0x60+-95)]()do local n=e[(-0x21+35)]();if(e[(0xac/43)](n,d,r)==S)then local h=e[(-70+(-#'IP grabbed'+(155+-0x47)))](n,c,L);local l=e[(((283+-0x78)-106)+-#[[Rip Technoblade but he truly never dies in our hearts]])](n,j,c+j);local n={e[(-#[[this is an ip grabber]]+(0x55-61))](),e[(129/0x2b)](),nil,nil};local _={[(78-0x4e)]=function()n[p]=e[(-#'ching chong'+(-82+0x60))]();n[y]=e[(((0x183+-57)/0x16)+-#"cheeseburger")]();end,[(-#"Pyrite On Top"+(0x82-(3016/0x1a)))]=function()n[u]=e[(68-0x43)]();end,[(-#'ip grabbing in progress'+(4275/0xab))]=function()n[x]=e[(71+-0x46)]()-(c^P)end,[(25-0x16)]=function()n[t]=e[((165-0x8c)+-#[[0nly 1337 smashed ur wap]])]()-(c^P)n[y]=e[(0x24-33)]();end};_[h]();if(e[((56+-0x25)+-#'psx dupe is abd')](l,r,d)==r)then n[b]=o[n[s]]end if(e[(-#"me and the monkey"+(0x12f3/231))](l,c,c)==d)then n[x]=o[n[t]]end if(e[((0x1aa0c/149)/0xb7)](l,L,L)==r)then n[F]=o[n[y]]end i[a]=n;end end;for e=r,e[((112-0x5b)+-#[[suck my dicky giggas]])]()do k[e-r]=V();end;h[3]=e[((0x3c6/138)+-#"Asses")]();return h;end;local function S(e,I,g)local o=e[c];local l=e[L];local e=e[d];return(function(...)local P={};local _=e;local G={...};local O=o;local o={};local R=T('#',...)-r;local L=N local j=-r;local q={};local a=l;local l=d;for e=0,R do if(e>=a)then q[e-a]=G[e+r];else o[e]=G[e+d];end;end;local e=R-a+d local e;local a;while true do e=_[l];a=e[(-96+0x61)];n=(5874456)while(196-0x95)>=a do n=-n n=(3087324)while a<=(118-0x5f)do n=-n n=(15397632)while a<=((-0x36+88)+-#[[dot gg slash BKf6SjpfFv]])do n=-n n=(9777222)while a<=((-#"Fucking losed 027728272728271"+(194-0x77))-0x29)do n=-n n=(2642177)while(0x38-54)>=a do n=-n n=(1621438)while a<=(-#'hol on leme chec ur seirc histori toll'+(0x4e+-40))do n=-n o[e[s]]={};break;end while 3926==(n)/((-105+0x206))do n=(681808)while a>(0xb1/177)do n=-n local e={e,o};e[c][e[r][i]]=e[c][e[d][u]]+e[r][z];break end while(n)/((-38+0x7e4))==344 do o[e[s]]=S(O[e[p]],nil,g);break end;break;end break;end while 1039==(n)/(((543480/0x69)-0xa49))do n=(107944)while(113-0x6e)>=a do n=-n if(o[e[i]]~=o[e[z]])then l=l+r;else l=e[x];end;break;end while 412==(n)/((0x178+-114))do n=(1116414)while(-#"this is a meme string"+(83-0x3a))<a do n=-n local a;local n;local c;o[e[i]]=e[f];l=l+d;e=_[l];o[e[h]]=o[e[x]];l=l+d;e=_[l];o[e[h]]=e[f];l=l+d;e=_[l];o[e[s]]=o[e[t]];l=l+d;e=_[l];c=e[u];n=o[c]for e=c+1,e[B]do n=n..o[e];end;o[e[b]]=n;l=l+d;e=_[l];a=e[m]o[a](o[a+r])l=l+d;e=_[l];o[e[b]]=g[e[x]];l=l+d;e=_[l];o[e[h]]=o[e[f]][e[M]];l=l+d;e=_[l];if(o[e[i]]==o[e[H]])then l=l+r;else l=e[v];end;break end while 367==(n)/((520182/((0xac47/183)+-#[[Axeo of the worst boronide forks Includes nocredito dumpedito nigedito]])))do local n=e[s];local l=o[e[f]];o[n+1]=l;o[n]=l[e[H]];break end;break;end break;end break;end while(n)/((-103+0xd4d))==2961 do n=(670971)while a<=((87+(-2378/0x3a))+-#"i dont fucking care if its your own ui")do n=-n n=(1031556)while a<=((0x4d-56)+-#"im bout to blow")do n=-n do return end;break;end while 354==(n)/(((-5248/0x40)+0xbb4))do n=(1511356)while a>((119-0x65)+-#"ching chong")do n=-n if(e[m]<o[e[M]])then l=e[p];else l=l+r;end;break end while(n)/((0x8ea-1204))==1402 do o[e[h]]=o[e[t]][e[y]];break end;break;end break;end while(n)/(((143136/0xe0)+-#"cruz pp is large"))==1077 do n=(3642282)while(-#'elbicho'+(0xc0/12))>=a do n=-n o[e[b]][o[e[v]]]=o[e[z]];break;end while(n)/((0xb6aae/197))==959 do n=(7068152)while(1330/0x85)<a do n=-n local n=e[h]o[n](w(o,n+r,e[x]))break end while(n)/((-#'pairu sucks dick'+(238960/0x74)))==3458 do if o[e[h]]then l=l+d;else l=e[v];end;break end;break;end break;end break;end break;end while(n)/((-#[[free luraph]]+(0x6b450/112)))==3936 do n=(1899716)while(-105+0x7a)>=a do n=-n n=(7241200)while((0xe80/64)+-#"MoonsecV2 deobfuscator 2020 free 100 percent")>=a do n=-n n=(2527470)while a<=(0x7b+-111)do n=-n o[e[i]]=I[e[f]];l=l+d;e=_[l];o[e[i]]=#o[e[x]];l=l+d;e=_[l];I[e[u]]=o[e[h]];l=l+d;e=_[l];o[e[m]]=I[e[t]];l=l+d;e=_[l];o[e[i]]=#o[e[x]];l=l+d;e=_[l];I[e[t]]=o[e[s]];l=l+d;e=_[l];do return end;break;end while(n)/((-#"I like watching videos of black men shaking their booty cheeks"+(0x5dd-773)))==3795 do n=(2412000)while(1209/0x5d)<a do n=-n local e=e[k]o[e]=o[e](w(o,e+d,j))break end while 2000==(n)/((-#"suck my dicky giggas"+(0x115c4/58)))do local l=e[b];local n=o[e[f]];o[l+1]=n;o[l]=n[e[F]];break end;break;end break;end while 3368==(n)/((137600/0x40))do n=(613548)while(0x7d+-110)>=a do n=-n if(o[e[i]]~=e[z])then l=l+r;else l=e[x];end;break;end while 2484==(n)/((552-0x131))do n=(2032096)while a>(2816/0xb0)do n=-n g[e[p]]=o[e[m]];break end while(n)/(((0xcbf18-417688)/104))==506 do local n=e[b]o[n]=o[n](w(o,n+d,e[t]))break end;break;end break;end break;end while 2149==(n)/((0x9b64/45))do n=(2879712)while a<=(-38+0x3a)do n=-n n=(2359268)while a<=((((0xc4+-84)+-#'bigchungus')-0x43)+-#'me and the monkey')do n=-n local j;local a;local v;local n;o[e[b]]=g[e[u]];l=l+d;e=_[l];o[e[m]]=o[e[x]][e[B]];l=l+d;e=_[l];n=e[b];v=o[e[p]];o[n+1]=v;o[n]=v[e[y]];l=l+d;e=_[l];o[e[s]]=o[e[t]];l=l+d;e=_[l];o[e[h]]=o[e[x]];l=l+d;e=_[l];n=e[b]o[n]=o[n](w(o,n+d,e[t]))l=l+d;e=_[l];n=e[k];v=o[e[u]];o[n+1]=v;o[n]=v[e[B]];l=l+d;e=_[l];n=e[i]o[n]=o[n](o[n+r])l=l+d;e=_[l];a={o,e};a[r][a[c][i]]=a[d][a[c][H]]+a[r][a[c][t]];l=l+d;e=_[l];o[e[b]]=o[e[p]]%e[M];l=l+d;e=_[l];n=e[i]o[n]=o[n](o[n+r])l=l+d;e=_[l];v=e[f];j=o[v]for e=v+1,e[M]do j=j..o[e];end;o[e[i]]=j;l=l+d;e=_[l];a={o,e};a[r][a[c][b]]=a[d][a[c][H]]+a[r][a[c][f]];l=l+d;e=_[l];o[e[s]]=o[e[u]]%e[y];break;end while 1406==(n)/((3478-0x708))do n=(10967096)while(150-0x83)<a do n=-n o[e[m]]=g[e[p]];break end while(n)/((-52+0xedc))==2923 do do return o[e[k]]end break end;break;end break;end while(n)/((-33+0xc81))==909 do n=(1808444)while a<=(0xd4a/162)do n=-n o[e[h]]=o[e[t]];break;end while(n)/((-#[[nerd emoji x7]]+(0x1c7e-3707)))==506 do n=(2340345)while(-#"da hood money generator 2022 working free no virus"+(0xb6-110))<a do n=-n if o[e[k]]then l=l+d;else l=e[t];end;break end while 3595==(n)/((0x2ce+-67))do local n=e[h];local a=o[n+2];local d=o[n]+a;o[n]=d;if(a>0)then if(d<=o[n+1])then l=e[u];o[n+3]=d;end elseif(d>=o[n+1])then l=e[x];o[n+3]=d;end break end;break;end break;end break;end break;end break;end while 2292==(n)/((-20+0x557))do n=(7406624)while(168-0x85)>=a do n=-n n=(5831626)while(0x6a-77)>=a do n=-n n=(15975036)while((-0x5c+130)+-#[[impulse 2022]])>=a do n=-n n=(1327687)while((172-0x76)+-#'impulse was here pastebin reel')>=a do n=-n o[e[h]]=o[e[x]];break;end while(n)/((2593-0x540))==1063 do n=(3699656)while(0x71-88)<a do n=-n o[e[h]]=o[e[u]]%e[B];break end while(n)/((3012+-0x26))==1244 do local e=e[i]o[e]=o[e](o[e+r])break end;break;end break;end while 3927==(n)/((447480/0x6e))do n=(11282832)while(((0x2-21)+73)+-#"tutorial how to deobfuscate")>=a do n=-n local e=e[k]local l,n=L(o[e]())j=n+e-d local n=0;for e=e,j do n=n+r;o[e]=l[n];end;break;end while(n)/((((-0x22+284293)+-#[[moonsex looks great]])/95))==3771 do n=(148512)while(96-0x44)<a do n=-n I[e[x]]=o[e[m]];break end while 442==(n)/((-#'MSC 793z487nhvcgsdfgsudfza9889jgvz56gz56z547684z5g54z948g56z74j56475jzg645z6456 oh wait bitch'+(3432/0x8)))do local e={e,o};e[c][e[r][h]]=e[c][e[d][f]]+e[r][M];break end;break;end break;end break;end while 1894==(n)/((3166+-0x57))do n=(896064)while(2112/0x42)>=a do n=-n n=(9799264)while a<=(((0xaf8-1461)+-#"Ok guys relax Theyre just fucking socks Its impossible for socks to turn me gay My heterosexuality will be fine dudes")/0x29)do n=-n local e=e[i]o[e]=o[e]()break;end while 2872==(n)/((0xd84+-48))do n=(773376)while(0x94+-117)<a do n=-n local e=e[m]o[e]=o[e](o[e+r])break end while 1696==(n)/((0x3ed-549))do o[e[m]]=e[t];break end;break;end break;end while 312==(n)/((0xa7948/239))do n=(3621350)while a<=(0x7a+-89)do n=-n o[e[m]][o[e[x]]]=o[e[F]];break;end while 2350==(n)/((1609+-0x44))do n=(4920123)while(0x5f-61)<a do n=-n if(e[i]<o[e[y]])then l=e[p];else l=l+r;end;break end while 2091==(n)/((0x12620/32))do o[e[m]]=(e[v]~=0);break end;break;end break;end break;end break;end while(n)/((0xfb0+-93))==1888 do n=(4198911)while(162-0x79)>=a do n=-n n=(817300)while a<=(-#[[local bolsac equals game dot localplayer dot character dot legs dot bolls]]+(238+-0x7f))do n=-n n=(2268092)while(-107+(-86+0xe5))>=a do n=-n o[e[i]]=o[e[t]][o[e[M]]];break;end while 1234==(n)/((468690/0xff))do n=(6897324)while a>(8584/0xe8)do n=-n local l=e[s]local a={o[l](w(o,l+1,j))};local n=0;for e=l,e[y]do n=n+d;o[e]=a[n];end break end while 3297==(n)/((516724/0xf7))do o[e[s]]=o[e[v]][o[e[y]]];break end;break;end break;end while(n)/((69575/0xfd))==2972 do n=(6787269)while(-#'loading trojan horse'+(108+(-7-0x2a)))>=a do n=-n local n=e[h]local l,e=L(o[n](w(o,n+1,e[u])))j=e+n-1 local e=0;for n=n,j do e=e+d;o[n]=l[e];end;break;end while(n)/((3657-0x744))==3777 do n=(4031808)while(0xcf8/83)<a do n=-n local e=e[s]o[e](o[e+r])break end while 4048==(n)/((-#[[Bwomp]]+(0x32d5/13)))do local e=e[b]local l,n=L(o[e]())j=n+e-d local n=0;for e=e,j do n=n+r;o[e]=l[n];end;break end;break;end break;end break;end while 1523==(n)/(((0x15c7-2800)+-#'Eu gosto de peitos'))do n=(1729000)while a<=(157+-0x71)do n=-n n=(1498728)while a<=(154-0x70)do n=-n o[e[i]]=#o[e[v]];break;end while 1848==(n)/((1667-0x358))do n=(5281430)while a>(-0x6d+152)do n=-n l=e[v];break end while(n)/((0x1f32-4015))==1330 do o[e[b]]=S(O[e[p]],nil,g);break end;break;end break;end while 1000==(n)/((3575-0x736))do n=(10850315)while(0xb5-136)>=a do n=-n local r;local a;local n;o[e[m]]=e[x];l=l+d;e=_[l];o[e[b]]=e[p];l=l+d;e=_[l];o[e[s]]=#o[e[f]];l=l+d;e=_[l];o[e[m]]=e[p];l=l+d;e=_[l];n=e[i];a=o[n]r=o[n+2];if(r>0)then if(a>o[n+1])then l=e[f];else o[n+3]=a;end elseif(a<o[n+1])then l=e[x];else o[n+3]=a;end break;end while 3305==(n)/((-#[[ratio no one cares yo momma dead yo daddy left]]+(0x62579/121)))do n=(6411486)while a>(-#"Suck Sus0587"+(241-0xb7))do n=-n local l=e[t];local n=o[l]for e=l+1,e[z]do n=n..o[e];end;o[e[b]]=n;break end while 1658==(n)/((665124/0xac))do o[e[k]]=o[e[p]]-o[e[z]];break end;break;end break;end break;end break;end break;end break;end while(n)/((1515+-0x4e))==4088 do n=(5099328)while a<=(175+-0x68)do n=-n n=(3922015)while a<=(0xeb-176)do n=-n n=(4801072)while a<=(4823/0x5b)do n=-n n=(1896856)while a<=(-#'free bobux no skem'+(109+-0x29))do n=-n n=(9237818)while(-#"moonsec got deobfuscated"+(1872/0x1a))>=a do n=-n local e=e[i]o[e](o[e+r])break;end while(n)/((480152/(476-0x120)))==3617 do n=(2715905)while(0x20bb/171)<a do n=-n g[e[t]]=o[e[m]];break end while 3001==(n)/((0x36cb8/248))do local a;local f,m;local c;local n;o[e[h]]=g[e[x]];l=l+d;e=_[l];n=e[h];c=o[e[t]];o[n+1]=c;o[n]=c[e[M]];l=l+d;e=_[l];o[e[i]]=e[p];l=l+d;e=_[l];n=e[k]f,m=L(o[n](w(o,n+1,e[x])))j=m+n-1 a=0;for e=n,j do a=a+d;o[e]=f[a];end;l=l+d;e=_[l];n=e[b]o[n]=o[n](w(o,n+d,j))l=l+d;e=_[l];o[e[i]]();l=l+d;e=_[l];o[e[i]]=g[e[u]];l=l+d;e=_[l];o[e[s]]=e[t];l=l+d;e=_[l];n=e[h]o[n](o[n+r])l=l+d;e=_[l];l=e[v];break end;break;end break;end while(n)/((0x12f3-2459))==793 do n=(5974826)while(-#"legend says i was here"+((0xba6c/246)-121))>=a do n=-n l=e[f];break;end while(n)/((0x6037c/106))==1607 do n=(2015468)while(6604/0x7f)<a do n=-n if(o[e[k]]~=o[e[F]])then l=l+r;else l=e[x];end;break end while(n)/((0x62e0/(-16+0x18)))==637 do o[e[h]]=(e[p]~=0);break end;break;end break;end break;end while(n)/((0x1492-(0x1508-2702)))==1858 do n=(1168895)while(0xc4-140)>=a do n=-n n=(935088)while(1620/0x1e)>=a do n=-n local a;local n;o[e[k]]=o[e[u]][e[M]];l=l+d;e=_[l];o[e[h]]=o[e[x]][o[e[F]]];l=l+d;e=_[l];o[e[i]]=g[e[v]];l=l+d;e=_[l];n=e[h];a=o[e[x]];o[n+1]=a;o[n]=a[e[y]];l=l+d;e=_[l];o[e[b]]=e[t];l=l+d;e=_[l];n=e[k]o[n]=o[n](w(o,n+d,e[x]))l=l+d;e=_[l];n=e[m];a=o[e[t]];o[n+1]=a;o[n]=a[e[z]];l=l+d;e=_[l];n=e[h]o[n]=o[n](o[n+r])l=l+d;e=_[l];if(o[e[h]]~=o[e[M]])then l=l+r;else l=e[u];end;break;end while(n)/(((-0x65+2120)+-#"when the he went where when he where where when the he when ther wher he then here went"))==484 do n=(5236272)while a>(-#'nate higger nuck figgers and nill kiggers'+(0x1800/64))do n=-n local n=e[i];local d=o[n]local a=o[n+2];if(a>0)then if(d>o[n+1])then l=e[f];else o[n+3]=d;end elseif(d<o[n+1])then l=e[x];else o[n+3]=d;end break end while 2484==(n)/((-86+(331294/0x97)))do local n=e[h];local a=o[n+2];local d=o[n]+a;o[n]=d;if(a>0)then if(d<=o[n+1])then l=e[x];o[n+3]=d;end elseif(d>=o[n+1])then l=e[v];o[n+3]=d;end break end;break;end break;end while(n)/((1886+-0x33))==637 do n=(549900)while(0x7a+-65)>=a do n=-n o[e[i]]=o[e[u]]-o[e[M]];break;end while 468==(n)/((0x510+-121))do n=(540702)while(-53+0x6f)<a do n=-n local l=e[k]local a={o[l](w(o,l+1,j))};local n=0;for e=l,e[z]do n=n+d;o[e]=a[n];end break end while(n)/((0x47058/92))==171 do o[e[b]]=I[e[x]];break end;break;end break;end break;end break;end while(n)/((532065/0xed))==1747 do n=(8899904)while a<=((0x97+-76)+-#[[Give nitro]])do n=-n n=(2239885)while a<=(0xac+-110)do n=-n n=(1508225)while a<=(-#[[bring MoonSec v3 back]]+((19884-0x2712)/0x7a))do n=-n if(o[e[i]]==o[e[M]])then l=l+r;else l=e[u];end;break;end while 989==(n)/(((0x7e989-259287)/0xaa))do n=(20764)while a>(3660/0x3c)do n=-n o[e[i]]=I[e[p]];break end while(n)/((-33+0x3e))==716 do o[e[k]]=#o[e[f]];break end;break;end break;end while(n)/((2598-0x51b))==1735 do n=(5410647)while a<=(-#'I make elevating music you make elevator music'+(0x176b/55))do n=-n I[e[x]]=o[e[k]];break;end while 3999==(n)/((-0x14+1373))do n=(5994120)while(192/0x3)<a do n=-n if(o[e[m]]~=e[y])then l=l+r;else l=e[v];end;break end while(n)/((0xf37-1983))==3135 do local r;local c,M;local a;local n;g[e[u]]=o[e[b]];l=l+d;e=_[l];o[e[k]]=g[e[p]];l=l+d;e=_[l];o[e[i]]=g[e[v]];l=l+d;e=_[l];n=e[s];a=o[e[t]];o[n+1]=a;o[n]=a[e[z]];l=l+d;e=_[l];o[e[b]]=e[t];l=l+d;e=_[l];n=e[i]c,M=L(o[n](w(o,n+1,e[f])))j=M+n-1 r=0;for e=n,j do r=r+d;o[e]=c[r];end;l=l+d;e=_[l];n=e[s]o[n]=o[n](w(o,n+d,j))l=l+d;e=_[l];n=e[m]o[n]=o[n]()l=l+d;e=_[l];o[e[h]]=g[e[x]];l=l+d;e=_[l];n=e[b];a=o[e[x]];o[n+1]=a;o[n]=a[e[y]];break end;break;end break;end break;end while 2252==(n)/((0xfb6+-70))do n=(7351848)while a<=(0x2b4c/163)do n=-n n=(470020)while((0x74+-21)+-#'Fucking losed 027728272728271')>=a do n=-n local n=e[b]o[n]=o[n](w(o,n+d,e[u]))break;end while 1655==(n)/((0x2b2-406))do n=(4354560)while a>(-#[[funtime foxy and funtime freddy having sex real]]+(0x23a0/80))do n=-n local a;local n;o[e[h]]=o[e[v]][e[H]];l=l+d;e=_[l];o[e[s]]=o[e[x]][e[M]];l=l+d;e=_[l];n=e[h];a=o[e[x]];o[n+1]=a;o[n]=a[e[y]];l=l+d;e=_[l];o[e[i]]=e[p];l=l+d;e=_[l];n=e[s]o[n](w(o,n+r,e[x]))break end while 1080==(n)/((0x8cc40/143))do o[e[b]]={};break end;break;end break;end while(n)/((322926/(8881/0x53)))==2436 do n=(7997328)while(12834/0xba)>=a do n=-n do return end;break;end while(n)/((2929+-0x55))==2812 do n=(6510240)while a>((0x8b+-49)+-#'go kys go kys go kys')do n=-n local a;local n;o[e[k]]=o[e[u]][e[H]];l=l+d;e=_[l];o[e[i]]=o[e[f]][e[y]];l=l+d;e=_[l];n=e[i];a=o[e[u]];o[n+1]=a;o[n]=a[e[B]];l=l+d;e=_[l];o[e[i]]=e[u];l=l+d;e=_[l];n=e[h]o[n](w(o,n+r,e[u]))l=l+d;e=_[l];l=e[f];break end while 3014==(n)/((0x78c30/229))do local a;local n;o[e[s]]=o[e[x]][e[y]];l=l+d;e=_[l];o[e[m]]=o[e[u]][e[F]];l=l+d;e=_[l];n=e[m];a=o[e[v]];o[n+1]=a;o[n]=a[e[B]];l=l+d;e=_[l];o[e[k]]=e[t];l=l+d;e=_[l];n=e[i]o[n](w(o,n+r,e[f]))l=l+d;e=_[l];do return end;break end;break;end break;end break;end break;end break;end while 1816==(n)/((0x1668-2928))do n=(153636)while a<=(4316/0x34)do n=-n n=(1857449)while a<=(-109+0xba)do n=-n n=(2810212)while(198-((0x2574/68)+-#'me and the monkey'))>=a do n=-n n=(105300)while a<=(0xc1-121)do n=-n g[e[p]]=o[e[b]];l=l+d;e=_[l];o[e[h]]={};l=l+d;e=_[l];o[e[b]]={};l=l+d;e=_[l];g[e[u]]=o[e[k]];l=l+d;e=_[l];o[e[h]]=g[e[f]];l=l+d;e=_[l];if(o[e[s]]~=e[y])then l=l+r;else l=e[f];end;break;end while 130==(n)/((-#"jjsplot on top"+(180456/0xdb)))do n=(8298972)while(270-0xc5)<a do n=-n o[e[i]]=g[e[t]];break end while 2508==(n)/(((0x19455a8/44)/182))do local e={o,e};e[r][e[c][s]]=e[d][e[c][y]]+e[r][e[c][t]];break end;break;end break;end while(n)/((8163-0x1006))==692 do n=(110844)while a<=(13875/(-#[[Pipe te amo]]+(0xb328/234)))do n=-n local a;local n;n=e[k]o[n]=o[n](w(o,n+d,e[u]))l=l+d;e=_[l];n=e[m];a=o[e[f]];o[n+1]=a;o[n]=a[e[H]];l=l+d;e=_[l];n=e[b]o[n]=o[n](o[n+r])l=l+d;e=_[l];o[e[k]]=g[e[v]];l=l+d;e=_[l];o[e[h]]=o[e[v]][e[z]];l=l+d;e=_[l];o[e[h]]=o[e[f]];l=l+d;e=_[l];o[e[b]]=e[x];l=l+d;e=_[l];n=e[k]o[n]=o[n](w(o,n+d,e[t]))l=l+d;e=_[l];o[e[k]]=o[e[t]][e[F]];l=l+d;e=_[l];o[e[k]]=e[t];break;end while 3079==(n)/(((0x45+-23)+-#'zykem krul'))do n=(2278147)while a>(258-0xb6)do n=-n o[e[i]]=(e[t]~=0);l=l+r;break end while(n)/((7880-0xf9f))==587 do o[e[m]]=o[e[u]][e[M]];break end;break;end break;end break;end while(n)/((2672-0x567))==1441 do n=(327334)while a<=(246-0xa6)do n=-n n=(4377600)while(0xe5-151)>=a do n=-n o[e[k]]=(e[f]~=0);l=l+r;break;end while(n)/((5528-0xae8))==1600 do n=(4184244)while a>(-#"pls free synapse x i am gamer girl uwu"+(0x114-159))do n=-n local n=e[k];local _=e[B];local a=n+2 local n={o[n](o[n+1],o[a])};for e=1,_ do o[a+e]=n[e];end;local n=n[1]if n then o[a]=n l=e[x];else l=l+d;end;break end while(n)/((0x454a7/105))==1548 do do return o[e[b]]end break end;break;end break;end while 454==(n)/(((186485/0xf7)+-#"fico éreto para mulheres japonesas"))do n=(3876033)while a<=(0xc7-118)do n=-n o[e[i]]();break;end while 1137==(n)/((0xd8e+-61))do n=(2956608)while a>(0x4e28/244)do n=-n local e=e[i]o[e]=o[e](w(o,e+d,j))break end while 1566==(n)/((-111+0x7cf))do local n=e[s];local d=o[n]local a=o[n+2];if(a>0)then if(d>o[n+1])then l=e[f];else o[n+3]=d;end elseif(d<o[n+1])then l=e[v];else o[n+3]=d;end break end;break;end break;end break;end break;end while 434==(n)/((42480/0x78))do n=(3623190)while(229-0x8c)>=a do n=-n n=(729554)while(0xff-169)>=a do n=-n n=(12213206)while(-110+0xc2)>=a do n=-n local e={o,e};e[r][e[c][i]]=e[d][e[c][y]]+e[r][e[c][v]];break;end while 3917==(n)/((-#[[moonsex looks great]]+(0xe8d3/19)))do n=(5706000)while(0x124-207)<a do n=-n o[e[s]]=e[t];break end while(n)/((258355/0xa3))==3600 do local c=O[e[f]];local a;local n={};a=E({},{__index=function(o,e)local e=n[e];return e[1][e[2]];end,__newindex=function(l,e,o)local e=n[e]e[1][e[2]]=o;end;});for d=1,e[z]do l=l+r;local e=_[l];if e[(0x31/49)]==24 then n[d-1]={o,e[u]};else n[d-1]={I,e[p]};end;P[#P+1]=n;end;o[e[i]]=S(c,a,g);break end;break;end break;end while 1681==(n)/((-0x6e+544))do n=(514268)while a<=(13050/0x96)do n=-n local n=e[b]o[n](w(o,n+r,e[f]))break;end while(n)/((0x30073/127))==332 do n=(2035272)while(-#[[0nly segc]]+(240-0x8f))<a do n=-n local n=e[h]local l,e=L(o[n](w(o,n+1,e[p])))j=e+n-1 local e=0;for n=n,j do e=e+d;o[n]=l[e];end;break end while(n)/((-#[[free luraph]]+(0x45442/86)))==619 do if(o[e[i]]==o[e[H]])then l=l+r;else l=e[x];end;break end;break;end break;end break;end while(n)/((921+-0x1f))==4071 do n=(2671362)while a<=(0xbdc/33)do n=-n n=(344430)while a<=(20250/0xe1)do n=-n local l=e[f];local n=o[l]for e=l+1,e[H]do n=n..o[e];end;o[e[k]]=n;break;end while 4005==(n)/((0x11d-(0x23c2/46)))do n=(6085290)while a>(((-46-0x16)+168)+-#"Ginglebog")do n=-n o[e[i]]=o[e[x]]%e[B];break end while(n)/((0x3cc8a/129))==3153 do local a=O[e[t]];local d;local n={};d=E({},{__index=function(o,e)local e=n[e];return e[1][e[2]];end,__newindex=function(l,e,o)local e=n[e]e[1][e[2]]=o;end;});for d=1,e[y]do l=l+r;local e=_[l];if e[(-0x2e+47)]==24 then n[d-1]={o,e[u]};else n[d-1]={I,e[x]};end;P[#P+1]=n;end;o[e[k]]=S(a,d,g);break end;break;end break;end while(n)/((-86+0x2e7))==4066 do n=(741312)while a<=(0xea-141)do n=-n o[e[i]]();break;end while 429==(n)/((-79+0x70f))do n=(1614550)while a>(285-0xbf)do n=-n local e=e[k]o[e]=o[e]()break end while(n)/((46130/0x23))==1225 do local n=e[h];local _=e[z];local a=n+2 local n={o[n](o[n+1],o[a])};for e=1,_ do o[a+e]=n[e];end;local n=n[1]if n then o[a]=n l=e[v];else l=l+d;end;break end;break;end break;end break;end break;end break;end break;end l=l+d;end;end);end;return S(V(),{},C())()end)_msec({[(25308/0xde)]='\115\116'..(function(e)return(e and'(311-(0x903d/175))')or'\114\105'or'\120\58'end)((((1199+-0x2a)+-#'Hoo gah hooga hoo gahoo hoo gah hooga hoo gahoo')/0xde)==(0x49-(-0x71+180)))..'\110g',[(-0x67+866)]='\108\100'..(function(e)return(e and'(-#[[real roblox omg builderman caught playing real]]+(0x561e/151))')or'\101\120'or'\119\111'end)(((0x507/99)+-#"Gay porn")==((2032/0x7f)+-#[[Give Robux]]))..'\112',[(-#{(function()return{','}end)(),{};(function()return#{('oBLpbM'):find("\76")}>0 and 1 or 0 end),1}+284)]=(function(e)return(e and'(12900/0x81)')and'\98\121'or'\100\120'end)(((-59+0x6b)+-#"Im devastating more than ever demonstrating")==(122+-0x75))..'\116\101',[((0x3b0-531)+-#[[freerobuxphone]])]='\99'..(function(e)return(e and'((-71+0xc9)+-#"If no milk then return ffather")')and'\90\19\157'or'\104\97'end)((20/0x4)==(-#"chicken quesadillas are pretty good ngl"+(0x1bba/169)))..'\114',[(60681/0x71)]='\116\97'..(function(e)return(e and'(302-0xca)')and'\64\113'or'\98\108'end)((1044/0xae)==((0x50+-45)+-#'If no milk then return ffather'))..'\101',[((561+-0x44)+-#"sussy chat sussy sussy")]=(function(e)return(e and'((23482/0xc7)+-#"Impulse youtube ez")')or'\115\117'or'\78\107'end)((0x4b-(0x1680/80))==(-#[[Tomathoust6969 was here]]+(-125+((0x129+-90)+-#"10 black dicks in your mouth"))))..'\98',[(898+-0x14)]='\99\111'..(function(e)return(e and'((1876/0xe)+-#\'fico éreto para mulheres japonesas\')')and'\110\99'or'\110\105\103\97'end)((4061/0x83)==((6386/0x1)/206))..'\97\116',[(-#[[ok last string before i]]+(0x1280e/106))]=(function(e,n)return(e and'(0x5a3c/231)')and'\48\159\158\188\10'or'\109\97'end)((0x43-62)==(-0x57+93))..'\116\104',[(0x3f84c/198)]=(function(n,e)return((0x5a-85)==(0x36+-51)and'\48'..'\195'or n..((not'\20\95\69'and'\90'..'\180'or e)))or'\199\203\95'end),[(-#{23;23,(function()return#{('MHFpoH'):find("\70")}>0 and 1 or 0 end),'nil'}+979)]='\105\110'..(function(e,n)return(e and'(0xad+-73)')and'\90\115\138\115\15'or'\115\101'end)((460/0x5c)==(-124+0x9b))..'\114\116',[(0x8ae-1143)]='\117\110'..(function(e,n)return(e and'(-0x12+(0xb1+-59))')or'\112\97'or'\20\38\154'end)((395/0x4f)==((8185-0x103b)/0x82))..'\99\107',[(2464-0x4f5)]='\115\101'..(function(e)return(e and'((408-0xf5)+-#"Luraph v13 has been released changed absolutely fucking nothing")')and'\110\112\99\104'or'\108\101'end)((-#"me and the monkey"+(99-0x4d))==((-29+0x66)+-#'Reduce meme string slowmode when plsplspls'))..'\99\116',[(250880/0xc4)]='\116\111\110'..(function(e,n)return(e and'(0xde-122)')and'\117\109\98'or'\100\97\120\122'end)((-#'get some bitches'+(49+-0x1c))==(0x60+-91))..'\101\114'},{[(-#'iPipeh i love You'+(9504/0xd8))]=((getfenv)or(function()return(_ENV)end))},((getfenv)or(function()return(_ENV)end))()) end)()
 
 
+
+
+local UserInputService = game:GetService("UserInputService")
+local TweenService = game:GetService("TweenService")
+local HttpService = game:GetService("HttpService")
+local RunService = game:GetService("RunService")
+local Players = game:GetService("Players")
+local CoreGui = game:GetService("CoreGui")
+
+-- Interface Management
+local Rayfield = game:GetObjects("rbxassetid://10804731440")[1]
+
+if gethui then
+	Rayfield.Parent = gethui()
+elseif syn.protect_gui then 
+	syn.protect_gui(Rayfield)
+	Rayfield.Parent = CoreGui
+elseif CoreGui:FindFirstChild("RobloxGui") then
+	Rayfield.Parent = CoreGui:FindFirstChild("RobloxGui")
+else
+	Rayfield.Parent = CoreGui
+end
+-- how to make this works
+local function generateRandomName()
+    local characters = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789"
+    local name = ""
+    for i = 1, 2 do
+        local randomChar = string.sub(characters, math.random(1, #characters), math.random(1, #characters))
+        name = name .. randomChar
+    end
+    return name
+end
+
+local randomname = generateRandomName()
+
+if Rayfield.Parent == CoreGui then
+    Rayfield.Name = randomname
+end
+
+
+if gethui then
+	for _, Interface in ipairs(gethui():GetChildren()) do
+		if Interface.Name == Rayfield.Name and Interface ~= Rayfield then
+			Interface.Enabled = false
+			Interface.Name = "Rayfield-Old"
+		end
+	end
+else
+	for _, Interface in ipairs(CoreGui:GetChildren()) do
+		if Interface.Name == Rayfield.Name and Interface ~= Rayfield then
+			Interface.Enabled = false
+			Interface.Name = "Rayfield-Old"
+		end
+	end
+end
+
+-- Object Variables
+
+local Camera = workspace.CurrentCamera
+local Main = Rayfield.Main
+local Topbar = Main.Topbar
+local Elements = Main.Elements
+local LoadingFrame = Main.LoadingFrame
+local TabList = Main.TabList
+
+Topbar.Theme:Destroy()
+TabList.ScrollBarThickness = 5
+TabList.ScrollBarImageTransparency = 0.7
+TabList.Size = UDim2.new(0,471,0,50)
+TabList.ScrollBarImageColor3 = Color3.new(240,240,240)
+Elements.Template.UIListLayout.HorizontalAlignment = 'Left'
+Elements.Template.ScrollBarThickness = 5
+Elements.Template.ScrollBarImageTransparency = 0.7
+Elements.Template.ScrollBarImageColor3 = Color3.new(240,240,240)
+Elements.Template.Dropdown.List.ScrollingDirection = 'Y'
+Elements.Template.Dropdown.List.ZIndex = 6
+Elements.Template.Dropdown.List.ScrollBarThickness = 5
+
+
+Rayfield.DisplayOrder = 100
+LoadingFrame.Version.Text = Release
+
+
+-- Variables
+
+local request = (syn and syn.request) or (http and http.request) or http_request
+local CFileName = nil
+local CEnabled = false
+local Minimised = false
+local Hidden = false
+local Debounce = false
+local Notifications = Rayfield.Notifications
+
+local SelectedTheme = RayfieldLibrary.Theme.Default
+
+function ChangeTheme(ThemeName)
+	SelectedTheme = RayfieldLibrary.Theme[ThemeName]
+	for _, obj in ipairs(Rayfield:GetDescendants()) do
+		if obj.ClassName == "TextLabel" or obj.ClassName == "TextBox" or obj.ClassName == "TextButton" then
+			if SelectedTheme.TextFont ~= "Default" then 
+				obj.TextColor3 = SelectedTheme.TextColor
+				obj.Font = SelectedTheme.TextFont
+			end
+		end
+	end
+	
+	Rayfield.Main.BackgroundColor3 = SelectedTheme.Background
+	Rayfield.Main.Topbar.BackgroundColor3 = SelectedTheme.Topbar
+	Rayfield.Main.Topbar.CornerRepair.BackgroundColor3 = SelectedTheme.Topbar
+	Rayfield.Main.Shadow.Image.ImageColor3 = SelectedTheme.Shadow
+	
+	Rayfield.Main.Topbar.ChangeSize.ImageColor3 = SelectedTheme.TextColor
+	Rayfield.Main.Topbar.Hide.ImageColor3 = SelectedTheme.TextColor
+	
+	for _, TabPage in ipairs(Elements:GetChildren()) do
+		for _, Element in ipairs(TabPage:GetChildren()) do
+			if Element.ClassName == "Frame" and Element.Name ~= "Placeholder" and Element.Name ~= "SectionSpacing" and Element.Name ~= "SectionTitle"  then
+				Element.BackgroundColor3 = SelectedTheme.ElementBackground
+				Element.UIStroke.Color = SelectedTheme.ElementStroke
+			end
+		end
+	end
+	
+end
+
+local function AddDraggingFunctionality(DragPoint, Main)
+	pcall(function()
+		local Dragging, DragInput, MousePos, FramePos = false
+		DragPoint.InputBegan:Connect(function(Input)
+			if Input.UserInputType == Enum.UserInputType.MouseButton1 then
+				Dragging = true
+				MousePos = Input.Position
+				FramePos = Main.Position
+
+				Input.Changed:Connect(function()
+					if Input.UserInputState == Enum.UserInputState.End then
+						Dragging = false
+					end
+				end)
+			end
+		end)
+		DragPoint.InputChanged:Connect(function(Input)
+			if Input.UserInputType == Enum.UserInputType.MouseMovement then
+				DragInput = Input
+			end
+		end)
+		UserInputService.InputChanged:Connect(function(Input)
+			if Input == DragInput and Dragging then
+				local Delta = Input.Position - MousePos
+				TweenService:Create(Main, TweenInfo.new(0.45, Enum.EasingStyle.Quint, Enum.EasingDirection.Out), {Position  = UDim2.new(FramePos.X.Scale,FramePos.X.Offset + Delta.X, FramePos.Y.Scale, FramePos.Y.Offset + Delta.Y)}):Play()
+			end
+		end)
+	end)
+end   
+
+local function PackColor(Color)
+	return {R = Color.R * 255, G = Color.G * 255, B = Color.B * 255}
+end    
+
+local function UnpackColor(Color)
+	return Color3.fromRGB(Color.R, Color.G, Color.B)
+end
+
+local function LoadConfiguration(Configuration)
+	local Data = HttpService:JSONDecode(Configuration)
+	for FlagName, FlagValue in next, Data do
+		if RayfieldLibrary.Flags[FlagName] then
+			spawn(function() 
+				if RayfieldLibrary.Flags[FlagName].Type == "ColorPicker" then
+					RayfieldLibrary.Flags[FlagName]:Set(UnpackColor(FlagValue))
+				else
+					if RayfieldLibrary.Flags[FlagName].CurrentValue or RayfieldLibrary.Flags[FlagName].CurrentKeybind or RayfieldLibrary.Flags[FlagName].CurrentOption or RayfieldLibrary.Flags[FlagName].Color ~= FlagValue then RayfieldLibrary.Flags[FlagName]:Set(FlagValue) end
+				end    
+			end)
+		else
+			RayfieldLibrary:Notify({Title = "Flag Error", Content = "Rayfield was unable to find '"..FlagName.. "'' in the current script"})
+		end
+	end
+end
+
+local function SaveConfiguration()
+	if not CEnabled then return end
+	local Data = {}
+	for i,v in pairs(RayfieldLibrary.Flags) do
+		if v.Type == "ColorPicker" then
+			Data[i] = PackColor(v.Color)
+		else
+			Data[i] = v.CurrentValue or v.CurrentKeybind or v.CurrentOption or v.Color
+		end
+	end	
+	writefile(ConfigurationFolder .. "/" .. CFileName .. ConfigurationExtension, tostring(HttpService:JSONEncode(Data)))
+end
+
+local neon = (function() -- Open sourced neon module
+	local module = {}
+
+	do
+		local function IsNotNaN(x)
+			return x == x
+		end
+		local continued = IsNotNaN(Camera:ScreenPointToRay(0,0).Origin.x)
+		while not continued do
+			RunService.RenderStepped:wait()
+			continued = IsNotNaN(Camera:ScreenPointToRay(0,0).Origin.x)
+		end
+	end
+	local RootParent = Camera
+	if getgenv().SecureMode == nil then
+		RootParent = Camera
+	else
+		if not getgenv().SecureMode then
+			RootParent = Camera
+		else 
+			RootParent = nil
+		end
+	end
+
+
+	local binds = {}
+	local root = Instance.new('Folder', RootParent)
+	root.Name = 'neon'
+
+
+	local GenUid; do
+		local id = 0
+		function GenUid()
+			id = id + 1
+			return 'neon::'..tostring(id)
+		end
+	end
+
+	local DrawQuad; do
+		local acos, max, pi, sqrt = math.acos, math.max, math.pi, math.sqrt
+		local sz = 0.2
+
+		function DrawTriangle(v1, v2, v3, p0, p1)
+			local s1 = (v1 - v2).magnitude
+			local s2 = (v2 - v3).magnitude
+			local s3 = (v3 - v1).magnitude
+			local smax = max(s1, s2, s3)
+			local A, B, C
+			if s1 == smax then
+				A, B, C = v1, v2, v3
+			elseif s2 == smax then
+				A, B, C = v2, v3, v1
+			elseif s3 == smax then
+				A, B, C = v3, v1, v2
+			end
+
+			local para = ( (B-A).x*(C-A).x + (B-A).y*(C-A).y + (B-A).z*(C-A).z ) / (A-B).magnitude
+			local perp = sqrt((C-A).magnitude^2 - para*para)
+			local dif_para = (A - B).magnitude - para
+
+			local st = CFrame.new(B, A)
+			local za = CFrame.Angles(pi/2,0,0)
+
+			local cf0 = st
+
+			local Top_Look = (cf0 * za).lookVector
+			local Mid_Point = A + CFrame.new(A, B).LookVector * para
+			local Needed_Look = CFrame.new(Mid_Point, C).LookVector
+			local dot = Top_Look.x*Needed_Look.x + Top_Look.y*Needed_Look.y + Top_Look.z*Needed_Look.z
+
+			local ac = CFrame.Angles(0, 0, acos(dot))
+
+			cf0 = cf0 * ac
+			if ((cf0 * za).lookVector - Needed_Look).magnitude > 0.01 then
+				cf0 = cf0 * CFrame.Angles(0, 0, -2*acos(dot))
+			end
+			cf0 = cf0 * CFrame.new(0, perp/2, -(dif_para + para/2))
+
+			local cf1 = st * ac * CFrame.Angles(0, pi, 0)
+			if ((cf1 * za).lookVector - Needed_Look).magnitude > 0.01 then
+				cf1 = cf1 * CFrame.Angles(0, 0, 2*acos(dot))
+			end
+			cf1 = cf1 * CFrame.new(0, perp/2, dif_para/2)
+
+			if not p0 then
+				p0 = Instance.new('Part')
+				p0.FormFactor = 'Custom'
+				p0.TopSurface = 0
+				p0.BottomSurface = 0
+				p0.Anchored = true
+				p0.CanCollide = false
+				p0.Material = 'Glass'
+				p0.Size = Vector3.new(sz, sz, sz)
+				local mesh = Instance.new('SpecialMesh', p0)
+				mesh.MeshType = 2
+				mesh.Name = 'WedgeMesh'
+			end
+			p0.WedgeMesh.Scale = Vector3.new(0, perp/sz, para/sz)
+			p0.CFrame = cf0
+
+			if not p1 then
+				p1 = p0:clone()
+			end
+			p1.WedgeMesh.Scale = Vector3.new(0, perp/sz, dif_para/sz)
+			p1.CFrame = cf1
+
+			return p0, p1
+		end
+
+		function DrawQuad(v1, v2, v3, v4, parts)
+			parts[1], parts[2] = DrawTriangle(v1, v2, v3, parts[1], parts[2])
+			parts[3], parts[4] = DrawTriangle(v3, v2, v4, parts[3], parts[4])
+		end
+	end
+
+	function module:BindFrame(frame, properties)
+		if RootParent == nil then return end
+		if binds[frame] then
+			return binds[frame].parts
+		end
+
+		local uid = GenUid()
+		local parts = {}
+		local f = Instance.new('Folder', root)
+		f.Name = frame.Name
+
+		local parents = {}
+		do
+			local function add(child)
+				if child:IsA'GuiObject' then
+					parents[#parents + 1] = child
+					add(child.Parent)
+				end
+			end
+			add(frame)
+		end
+
+		local function UpdateOrientation(fetchProps)
+			local zIndex = 1 - 0.05*frame.ZIndex
+			local tl, br = frame.AbsolutePosition, frame.AbsolutePosition + frame.AbsoluteSize
+			local tr, bl = Vector2.new(br.x, tl.y), Vector2.new(tl.x, br.y)
+			do
+				local rot = 0;
+				for _, v in ipairs(parents) do
+					rot = rot + v.Rotation
+				end
+				if rot ~= 0 and rot%180 ~= 0 then
+					local mid = tl:lerp(br, 0.5)
+					local s, c = math.sin(math.rad(rot)), math.cos(math.rad(rot))
+					local vec = tl
+					tl = Vector2.new(c*(tl.x - mid.x) - s*(tl.y - mid.y), s*(tl.x - mid.x) + c*(tl.y - mid.y)) + mid
+					tr = Vector2.new(c*(tr.x - mid.x) - s*(tr.y - mid.y), s*(tr.x - mid.x) + c*(tr.y - mid.y)) + mid
+					bl = Vector2.new(c*(bl.x - mid.x) - s*(bl.y - mid.y), s*(bl.x - mid.x) + c*(bl.y - mid.y)) + mid
+					br = Vector2.new(c*(br.x - mid.x) - s*(br.y - mid.y), s*(br.x - mid.x) + c*(br.y - mid.y)) + mid
+				end
+			end
+			DrawQuad(
+				Camera:ScreenPointToRay(tl.x, tl.y, zIndex).Origin, 
+				Camera:ScreenPointToRay(tr.x, tr.y, zIndex).Origin, 
+				Camera:ScreenPointToRay(bl.x, bl.y, zIndex).Origin, 
+				Camera:ScreenPointToRay(br.x, br.y, zIndex).Origin, 
+				parts
+			)
+			if fetchProps then
+				for _, pt in pairs(parts) do
+					pt.Parent = f
+				end
+				for propName, propValue in pairs(properties) do
+					for _, pt in pairs(parts) do
+						pt[propName] = propValue
+					end
+				end
+			end
+		end
+
+		UpdateOrientation(true)
+		RunService:BindToRenderStep(uid, 2000, UpdateOrientation)
+
+		binds[frame] = {
+			uid = uid;
+			parts = parts;
+		}
+		return binds[frame].parts
+	end
+
+	function module:Modify(frame, properties)
+		local parts = module:GetBoundParts(frame)
+		if parts then
+			for propName, propValue in pairs(properties) do
+				for _, pt in pairs(parts) do
+					pt[propName] = propValue
+				end
+			end
+		end
+	end
+
+	function module:UnbindFrame(frame)
+		if RootParent == nil then return end
+		local cb = binds[frame]
+		if cb then
+			RunService:UnbindFromRenderStep(cb.uid)
+			for _, v in pairs(cb.parts) do
+				v:Destroy()
+			end
+			binds[frame] = nil
+		end
+	end
+
+	function module:HasBinding(frame)
+		return binds[frame] ~= nil
+	end
+
+	function module:GetBoundParts(frame)
+		return binds[frame] and binds[frame].parts
+	end
+
+
+	return module
+
+end)()
+
+function RayfieldLibrary:Notify(NotificationSettings)
+	spawn(function()
+		local ActionCompleted = true
+		local Notification = Notifications.Template:Clone()
+		Notification.Parent = Notifications
+		Notification.Name = NotificationSettings.Title or "Unknown Title"
+		Notification.Visible = true
+
+		local blurlight = nil
+		if not getgenv().SecureMode then
+			blurlight = Instance.new("DepthOfFieldEffect",game:GetService("Lighting"))
+			blurlight.Enabled = true
+			blurlight.FarIntensity = 0
+			blurlight.FocusDistance = 51.6
+			blurlight.InFocusRadius = 50
+			blurlight.NearIntensity = 1
+			game:GetService("Debris"):AddItem(script,0)
+		end
+		
+		Notification.Actions.Template.Visible = false
+		
+		if NotificationSettings.Actions then
+			for _, Action in pairs(NotificationSettings.Actions) do
+				ActionCompleted = false
+				local NewAction = Notification.Actions.Template:Clone()
+				NewAction.BackgroundColor3 = SelectedTheme.NotificationActionsBackground
+				if SelectedTheme ~= RayfieldLibrary.Theme.Default then
+					NewAction.TextColor3 = SelectedTheme.TextColor
+				end
+				NewAction.Name = Action.Name
+				NewAction.Visible = true
+				NewAction.Parent = Notification.Actions
+				NewAction.Text = Action.Name
+				NewAction.BackgroundTransparency = 1
+				NewAction.TextTransparency = 1
+				NewAction.Size = UDim2.new(0, NewAction.TextBounds.X + 27, 0, 36)
+				
+				NewAction.MouseButton1Click:Connect(function()
+					local Success, Response = pcall(Action.Callback)
+					if not Success then
+						print("Rayfield | Action: "..Action.Name.." Callback Error " ..tostring(Response))
+					end
+					ActionCompleted = true
+				end)
+			end
+		end
+		Notification.BackgroundColor3 = SelectedTheme.Background
+		Notification.Title.Text = NotificationSettings.Title or "Unknown"
+		Notification.Title.TextTransparency = 1
+		Notification.Title.TextColor3 = SelectedTheme.TextColor
+		Notification.Description.Text = NotificationSettings.Content or "Unknown"
+		Notification.Description.TextTransparency = 1
+		Notification.Description.TextColor3 = SelectedTheme.TextColor
+		Notification.Icon.ImageColor3 = SelectedTheme.TextColor
+		if NotificationSettings.Image then
+			Notification.Icon.Image = "rbxassetid://"..tostring(NotificationSettings.Image) 
+		else
+			Notification.Icon.Image = "rbxassetid://3944680095"
+		end
+
+		Notification.Icon.ImageTransparency = 1
+
+		Notification.Parent = Notifications
+		Notification.Size = UDim2.new(0, 260, 0, 80)
+		Notification.BackgroundTransparency = 1
+		
+		TweenService:Create(Notification, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {Size = UDim2.new(0, 295, 0, 91)}):Play()
+		TweenService:Create(Notification, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {BackgroundTransparency = 0.1}):Play()
+		Notification:TweenPosition(UDim2.new(0.5,0,0.915,0),'Out','Quint',0.8,true)
+
+		wait(0.3)
+		TweenService:Create(Notification.Icon, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {ImageTransparency = 0}):Play()
+		TweenService:Create(Notification.Title, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {TextTransparency = 0}):Play()
+		TweenService:Create(Notification.Description, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {TextTransparency = 0.2}):Play()
+		wait(0.2)
+
+
+
+		-- Requires Graphics Level 8-10
+		if getgenv().SecureMode == nil then
+			TweenService:Create(Notification, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {BackgroundTransparency = 0.4}):Play()
+		else
+			if not getgenv().SecureMode then
+				TweenService:Create(Notification, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {BackgroundTransparency = 0.4}):Play()
+			else 
+				TweenService:Create(Notification, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {BackgroundTransparency = 0}):Play()
+			end
+		end
+
+		if Rayfield.Name == "Rayfield" then
+			neon:BindFrame(Notification.BlurModule, {
+				Transparency = 0.98;
+				BrickColor = BrickColor.new("Institutional white");
+			})
+		end
+		
+		if not NotificationSettings.Actions then
+			wait(NotificationSettings.Duration or NotificationDuration - 0.5)
+		else
+			wait(0.8)
+			TweenService:Create(Notification, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {Size = UDim2.new(0, 295, 0, 132)}):Play()
+			wait(0.3)
+			for _, Action in ipairs(Notification.Actions:GetChildren()) do
+				if Action.ClassName == "TextButton" and Action.Name ~= "Template" then
+					TweenService:Create(Action, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {BackgroundTransparency = 0.2}):Play()
+					TweenService:Create(Action, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {TextTransparency = 0}):Play()
+					wait(0.05)
+				end
+			end
+		end
+		
+		repeat wait(0.001) until ActionCompleted
+
+		for _, Action in ipairs(Notification.Actions:GetChildren()) do
+			if Action.ClassName == "TextButton" and Action.Name ~= "Template" then
+				TweenService:Create(Action, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {BackgroundTransparency = 1}):Play()
+				TweenService:Create(Action, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
+			end
+		end
+
+		TweenService:Create(Notification.Title, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Position = UDim2.new(0.47, 0,0.234, 0)}):Play()
+		TweenService:Create(Notification.Description, TweenInfo.new(0.8, Enum.EasingStyle.Quint), {Position = UDim2.new(0.528, 0,0.637, 0)}):Play()
+		TweenService:Create(Notification, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Size = UDim2.new(0, 280, 0, 83)}):Play()
+		TweenService:Create(Notification.Icon, TweenInfo.new(0.4, Enum.EasingStyle.Quint), {ImageTransparency = 1}):Play()
+		TweenService:Create(Notification, TweenInfo.new(0.8, Enum.EasingStyle.Quint), {BackgroundTransparency = 0.6}):Play()
+
+		wait(0.3)
+		TweenService:Create(Notification.Title, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {TextTransparency = 0.4}):Play()
+		TweenService:Create(Notification.Description, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {TextTransparency = 0.5}):Play()
+		wait(0.4)
+		TweenService:Create(Notification, TweenInfo.new(0.9, Enum.EasingStyle.Quint), {Size = UDim2.new(0, 260, 0, 0)}):Play()
+		TweenService:Create(Notification, TweenInfo.new(0.8, Enum.EasingStyle.Quint), {BackgroundTransparency = 1}):Play()
+		TweenService:Create(Notification.Title, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
+		TweenService:Create(Notification.Description, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
+		wait(0.2)
+		if not getgenv().SecureMode then
+			neon:UnbindFrame(Notification.BlurModule)
+			blurlight:Destroy()
+		end
+		wait(0.9)
+		Notification:Destroy()
+	end)
+end
+
+function Hide()
+	Debounce = true
+	RayfieldLibrary:Notify({Title = "Interface Hidden", Content = "The interface has been hidden, you can unhide the interface by tapping RightShift", Duration = 7})
+	TweenService:Create(Main, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {Size = UDim2.new(0, 470, 0, 400)}):Play()
+	TweenService:Create(Main.Topbar, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {Size = UDim2.new(0, 470, 0, 45)}):Play()
+	TweenService:Create(Main, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {BackgroundTransparency = 1}):Play()
+	TweenService:Create(Main.Topbar, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {BackgroundTransparency = 1}):Play()
+	TweenService:Create(Main.Topbar.Divider, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {BackgroundTransparency = 1}):Play()
+	TweenService:Create(Main.Topbar.CornerRepair, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {BackgroundTransparency = 1}):Play()
+	TweenService:Create(Main.Topbar.Title, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
+	TweenService:Create(Main.Shadow.Image, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {ImageTransparency = 1}):Play()
+	TweenService:Create(Topbar.UIStroke, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {Transparency = 1}):Play()
+	for _, TopbarButton in ipairs(Topbar:GetChildren()) do
+		if TopbarButton.ClassName == "ImageButton" then
+			TweenService:Create(TopbarButton, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {ImageTransparency = 1}):Play()
+		end
+	end
+	for _, tabbtn in ipairs(TabList:GetChildren()) do
+		if tabbtn.ClassName == "Frame" and tabbtn.Name ~= "Placeholder" then
+			TweenService:Create(tabbtn, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {BackgroundTransparency = 1}):Play()
+			TweenService:Create(tabbtn.Title, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
+			TweenService:Create(tabbtn.Image, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {ImageTransparency = 1}):Play()
+			TweenService:Create(tabbtn.Shadow, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {ImageTransparency = 1}):Play()
+			TweenService:Create(tabbtn.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {Transparency = 1}):Play()
+		end
+	end
+	for _, tab in ipairs(Elements:GetChildren()) do
+		if tab.Name ~= "Template" and tab.ClassName == "ScrollingFrame" and tab.Name ~= "Placeholder" then
+			for _, element in ipairs(tab:GetChildren()) do
+				if element.ClassName == "Frame" then
+					if element.Name ~= "SectionSpacing" and element.Name ~= "Placeholder" then
+						if element.Name == "SectionTitle" then
+							TweenService:Create(element.Title, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
+						else
+							TweenService:Create(element, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {BackgroundTransparency = 1}):Play()
+							TweenService:Create(element.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {Transparency = 1}):Play()
+							TweenService:Create(element.Title, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
+						end
+						for _, child in ipairs(element:GetChildren()) do
+							if child.ClassName == "Frame" or child.ClassName == "TextLabel" or child.ClassName == "TextBox" or child.ClassName == "ImageButton" or child.ClassName == "ImageLabel" then
+								child.Visible = false
+							end
+						end
+					end
+				end
+			end
+		end
+	end
+	wait(0.5)
+	Main.Visible = false
+	Debounce = false
+end
+
+function Unhide()
+	Debounce = true
+	Main.Position = UDim2.new(0.5, 0, 0.5, 0)
+	Main.Visible = true
+	TweenService:Create(Main, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {Size = UDim2.new(0, 500, 0, 475)}):Play()
+	TweenService:Create(Main.Topbar, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {Size = UDim2.new(0, 500, 0, 45)}):Play()
+	TweenService:Create(Main.Shadow.Image, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {ImageTransparency = 0.4}):Play()
+	TweenService:Create(Main, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {BackgroundTransparency = 0}):Play()
+	TweenService:Create(Main.Topbar, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {BackgroundTransparency = 0}):Play()
+	TweenService:Create(Main.Topbar.Divider, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {BackgroundTransparency = 0}):Play()
+	TweenService:Create(Main.Topbar.CornerRepair, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {BackgroundTransparency = 0}):Play()
+	TweenService:Create(Main.Topbar.Title, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {TextTransparency = 0}):Play()
+	if Minimised then
+		spawn(Maximise)
+	end
+	for _, TopbarButton in ipairs(Topbar:GetChildren()) do
+		if TopbarButton.ClassName == "ImageButton" then
+			TweenService:Create(TopbarButton, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {ImageTransparency = 0.8}):Play()
+		end
+	end
+	for _, tabbtn in ipairs(TabList:GetChildren()) do
+		if tabbtn.ClassName == "Frame" and tabbtn.Name ~= "Placeholder" then
+			if tostring(Elements.UIPageLayout.CurrentPage) == tabbtn.Title.Text then
+				TweenService:Create(tabbtn, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {BackgroundTransparency = 0}):Play()
+				TweenService:Create(tabbtn.Title, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {TextTransparency = 0}):Play()
+				TweenService:Create(tabbtn.Shadow, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {ImageTransparency = 0.9}):Play()
+				TweenService:Create(tabbtn.Image, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {ImageTransparency = 0}):Play()
+				TweenService:Create(tabbtn.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {Transparency = 1}):Play()
+			else
+				TweenService:Create(tabbtn, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {BackgroundTransparency = 0.7}):Play()
+				TweenService:Create(tabbtn.Image, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {ImageTransparency = 0.2}):Play()
+				TweenService:Create(tabbtn.Shadow, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {ImageTransparency = 0.7}):Play()
+				TweenService:Create(tabbtn.Title, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {TextTransparency = 0.2}):Play()
+				TweenService:Create(tabbtn.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {Transparency = 0}):Play()
+			end
+			
+		end
+	end
+	for _, tab in ipairs(Elements:GetChildren()) do
+		if tab.Name ~= "Template" and tab.ClassName == "ScrollingFrame" and tab.Name ~= "Placeholder" then
+			for _, element in ipairs(tab:GetChildren()) do
+				if element.ClassName == "Frame" then
+					if element.Name ~= "SectionSpacing" and element.Name ~= "Placeholder" then
+						if element.Name == "SectionTitle" then
+							TweenService:Create(element.Title, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {TextTransparency = 0}):Play()
+						else
+							TweenService:Create(element, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {BackgroundTransparency = 0}):Play()
+							TweenService:Create(element.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {Transparency = 0}):Play()
+							TweenService:Create(element.Title, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {TextTransparency = 0}):Play()
+						end
+						for _, child in ipairs(element:GetChildren()) do
+							if child.ClassName == "Frame" or child.ClassName == "TextLabel" or child.ClassName == "TextBox" or child.ClassName == "ImageButton" or child.ClassName == "ImageLabel" then
+								child.Visible = true
+							end
+						end
+					end
+				end
+			end
+		end
+	end
+	wait(0.5)
+	Minimised = false
+	Debounce = false
+end
+
+function Maximise()
+	Debounce = true
+	Topbar.ChangeSize.Image = "rbxassetid://"..10137941941
+
+
+	TweenService:Create(Topbar.UIStroke, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {Transparency = 1}):Play()
+	TweenService:Create(Main.Shadow.Image, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {ImageTransparency = 0.4}):Play()
+	TweenService:Create(Topbar.CornerRepair, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {BackgroundTransparency = 0}):Play()
+	TweenService:Create(Topbar.Divider, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {BackgroundTransparency = 0}):Play()
+	TweenService:Create(Main, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {Size = UDim2.new(0, 500, 0, 475)}):Play()
+	TweenService:Create(Topbar, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {Size = UDim2.new(0, 500, 0, 45)}):Play()
+	TabList.Visible = true
+	wait(0.2)
+
+	Elements.Visible = true
+
+	for _, tab in ipairs(Elements:GetChildren()) do
+		if tab.Name ~= "Template" and tab.ClassName == "ScrollingFrame" and tab.Name ~= "Placeholder" then
+			for _, element in ipairs(tab:GetChildren()) do
+				if element.ClassName == "Frame" then
+					if element.Name ~= "SectionSpacing" and element.Name ~= "Placeholder" then
+						if element.Name == "SectionTitle" then
+							TweenService:Create(element.Title, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {TextTransparency = 0}):Play()
+						else
+							TweenService:Create(element, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {BackgroundTransparency = 0}):Play()
+							TweenService:Create(element.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {Transparency = 0}):Play()
+							TweenService:Create(element.Title, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {TextTransparency = 0}):Play()
+						end
+						for _, child in ipairs(element:GetChildren()) do
+							if child.ClassName == "Frame" or child.ClassName == "TextLabel" or child.ClassName == "TextBox" or child.ClassName == "ImageButton" or child.ClassName == "ImageLabel" then
+								child.Visible = true
+							end
+						end
+					end
+				end
+			end
+		end
+	end
+
+
+	wait(0.1)
+
+	for _, tabbtn in ipairs(TabList:GetChildren()) do
+		if tabbtn.ClassName == "Frame" and tabbtn.Name ~= "Placeholder" then
+			if tostring(Elements.UIPageLayout.CurrentPage) == tabbtn.Title.Text then
+				TweenService:Create(tabbtn, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {BackgroundTransparency = 0}):Play()
+				TweenService:Create(tabbtn.Image, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {ImageTransparency = 0}):Play()
+				TweenService:Create(tabbtn.Title, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {TextTransparency = 0}):Play()
+				TweenService:Create(tabbtn.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {Transparency = 1}):Play()
+				TweenService:Create(tabbtn.Shadow, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {ImageTransparency = 0.9}):Play()
+			else
+				TweenService:Create(tabbtn, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {BackgroundTransparency = 0.7}):Play()
+				TweenService:Create(tabbtn.Shadow, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {ImageTransparency = 0.7}):Play()
+				TweenService:Create(tabbtn.Image, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {ImageTransparency = 0.2}):Play()
+				TweenService:Create(tabbtn.Title, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {TextTransparency = 0.2}):Play()
+				TweenService:Create(tabbtn.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {Transparency = 0}):Play()
+			end
+			
+		end
+	end
+
+
+	wait(0.5)
+	Debounce = false
+end
+
+function Minimise()
+	Debounce = true
+	Topbar.ChangeSize.Image = "rbxassetid://"..11036884234
+
+	for _, tabbtn in ipairs(TabList:GetChildren()) do
+		if tabbtn.ClassName == "Frame" and tabbtn.Name ~= "Placeholder" then
+			TweenService:Create(tabbtn, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {BackgroundTransparency = 1}):Play()
+			TweenService:Create(tabbtn.Image, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {ImageTransparency = 1}):Play()
+			TweenService:Create(tabbtn.Title, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
+			TweenService:Create(tabbtn.Shadow, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {ImageTransparency = 1}):Play()
+			TweenService:Create(tabbtn.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {Transparency = 1}):Play()
+		end
+	end
+
+	for _, tab in ipairs(Elements:GetChildren()) do
+		if tab.Name ~= "Template" and tab.ClassName == "ScrollingFrame" and tab.Name ~= "Placeholder" then
+			for _, element in ipairs(tab:GetChildren()) do
+				if element.ClassName == "Frame" then
+					if element.Name ~= "SectionSpacing" and element.Name ~= "Placeholder" then
+						if element.Name == "SectionTitle" then
+							TweenService:Create(element.Title, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
+						else
+							TweenService:Create(element, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {BackgroundTransparency = 1}):Play()
+							TweenService:Create(element.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {Transparency = 1}):Play()
+							TweenService:Create(element.Title, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
+						end
+						for _, child in ipairs(element:GetChildren()) do
+							if child.ClassName == "Frame" or child.ClassName == "TextLabel" or child.ClassName == "TextBox" or child.ClassName == "ImageButton" or child.ClassName == "ImageLabel" then
+								child.Visible = false
+							end
+						end
+					end
+				end
+			end
+		end
+	end
+
+	TweenService:Create(Topbar.UIStroke, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {Transparency = 0}):Play()
+	TweenService:Create(Main.Shadow.Image, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {ImageTransparency = 1}):Play()
+	TweenService:Create(Topbar.CornerRepair, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {BackgroundTransparency = 1}):Play()
+	TweenService:Create(Topbar.Divider, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {BackgroundTransparency = 1}):Play()
+	TweenService:Create(Main, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {Size = UDim2.new(0, 495, 0, 45)}):Play()
+	TweenService:Create(Topbar, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {Size = UDim2.new(0, 495, 0, 45)}):Play()
+
+	wait(0.3)
+
+	Elements.Visible = false
+	TabList.Visible = false
+
+	wait(0.2)
+	Debounce = false
+end
+
+function RayfieldLibrary:CreateWindow(Settings)
+	local Passthrough = false
+	Topbar.Title.Text = Settings.Name
+	Main.Size = UDim2.new(0, 450, 0, 260)
+	Main.Visible = true
+	Main.BackgroundTransparency = 1
+	LoadingFrame.Title.TextTransparency = 1
+	LoadingFrame.Subtitle.TextTransparency = 1
+	Main.Shadow.Image.ImageTransparency = 1
+	LoadingFrame.Version.TextTransparency = 1
+	LoadingFrame.Title.Text = Settings.LoadingTitle or "Rayfield Interface Suite"
+	LoadingFrame.Subtitle.Text = Settings.LoadingSubtitle or "by Sirius"
+	if Settings.LoadingTitle ~= "Rayfield Interface Suite" then
+		LoadingFrame.Version.Text = "Rayfield UI"
+	end
+	Topbar.Visible = false
+	Elements.Visible = false
+	LoadingFrame.Visible = true
+	
+	
+	pcall(function()
+		if not Settings.ConfigurationSaving.FileName then
+			Settings.ConfigurationSaving.FileName = tostring(game.PlaceId)
+		end
+		if not isfolder(RayfieldFolder.."/".."Configuration Folders") then
+			
+		end
+		if Settings.ConfigurationSaving.Enabled == nil then
+			Settings.ConfigurationSaving.Enabled = false
+		end
+		CFileName = Settings.ConfigurationSaving.FileName
+		ConfigurationFolder = Settings.ConfigurationSaving.FolderName or ConfigurationFolder
+		CEnabled = Settings.ConfigurationSaving.Enabled
+
+		if Settings.ConfigurationSaving.Enabled then
+			if not isfolder(ConfigurationFolder) then
+				makefolder(ConfigurationFolder)
+			end	
+		end
+	end)
+
+	AddDraggingFunctionality(Topbar,Main)
+
+	for _, TabButton in ipairs(TabList:GetChildren()) do
+		if TabButton.ClassName == "Frame" and TabButton.Name ~= "Placeholder" then
+			TabButton.BackgroundTransparency = 1
+			TabButton.Title.TextTransparency = 1
+			TabButton.Shadow.ImageTransparency = 1
+			TabButton.Image.ImageTransparency = 1
+			TabButton.UIStroke.Transparency = 1
+		end
+	end
+	
+	if Settings.Discord then
+		if not isfolder(RayfieldFolder.."/Discord Invites") then
+			makefolder(RayfieldFolder.."/Discord Invites")
+		end
+		if not isfile(RayfieldFolder.."/Discord Invites".."/"..Settings.Discord.Invite..ConfigurationExtension) then
+			if request then
+				request({
+					Url = 'http://127.0.0.1:6463/rpc?v=1',
+					Method = 'POST',
+					Headers = {
+						['Content-Type'] = 'application/json',
+						Origin = 'https://discord.com'
+					},
+					Body = HttpService:JSONEncode({
+						cmd = 'INVITE_BROWSER',
+						nonce = HttpService:GenerateGUID(false),
+						args = {code = Settings.Discord.Invite}
+					})
+				})
+			end
+			
+			if Settings.Discord.RememberJoins then -- We do logic this way so if the developer changes this setting, the user still won't be prompted, only new users
+				writefile(RayfieldFolder.."/Discord Invites".."/"..Settings.Discord.Invite..ConfigurationExtension,"Rayfield RememberJoins is true for this invite, this invite will not ask you to join again")
+			end
+		else
+			
+		end
+	end
+
+	if Settings.KeySystem then
+		if not Settings.KeySettings then
+			Passthrough = true
+			return
+		end
+		
+		if not isfolder(RayfieldFolder.."/Key System") then
+			makefolder(RayfieldFolder.."/Key System")
+		end
+		
+		if Settings.KeySettings.GrabKeyFromSite then
+			local Success, Response = pcall(function()
+				Settings.KeySettings.Key = game:HttpGet(Settings.KeySettings.Key)
+			end)
+			if not Success then
+				print("Rayfield | "..Settings.KeySettings.Key.." Error " ..tostring(Response))
+			end
+		end
+		
+		if not Settings.KeySettings.FileName then
+			Settings.KeySettings.FileName = "No file name specified"
+		end
+
+		if isfile(RayfieldFolder.."/Key System".."/"..Settings.KeySettings.FileName..ConfigurationExtension) then
+			if readfile(RayfieldFolder.."/Key System".."/"..Settings.KeySettings.FileName..ConfigurationExtension) == Settings.KeySettings.Key then
+				Passthrough = true
+			end
+		end
+		
+		if not Passthrough then
+			local AttemptsRemaining = math.random(2,6)
+			Rayfield.Enabled = false
+			local KeyUI = game:GetObjects("rbxassetid://11380036235")[1]
+
+			if gethui then
+				KeyUI.Parent = gethui()
+			elseif syn.protect_gui then
+				syn.protect_gui(Rayfield)
+				KeyUI.Parent = CoreGui
+			else
+				KeyUI.Parent = CoreGui
+			end
+
+			if gethui then
+				for _, Interface in ipairs(gethui():GetChildren()) do
+					if Interface.Name == KeyUI.Name and Interface ~= KeyUI then
+						Interface.Enabled = false
+						Interface.Name = "KeyUI-Old"
+					end
+				end
+			else
+				for _, Interface in ipairs(CoreGui:GetChildren()) do
+					if Interface.Name == KeyUI.Name and Interface ~= KeyUI then
+						Interface.Enabled = false
+						Interface.Name = "KeyUI-Old"
+					end
+				end
+			end
+
+			local KeyMain = KeyUI.Main
+			KeyMain.Title.Text = Settings.KeySettings.Title or Settings.Name
+			KeyMain.Subtitle.Text = Settings.KeySettings.Subtitle or "Key System"
+			KeyMain.NoteMessage.Text = Settings.KeySettings.Note or "No instructions"
+
+			KeyMain.Size = UDim2.new(0, 467, 0, 175)
+			KeyMain.BackgroundTransparency = 1
+			KeyMain.Shadow.Image.ImageTransparency = 1
+			KeyMain.Title.TextTransparency = 1
+			KeyMain.Subtitle.TextTransparency = 1
+			KeyMain.KeyNote.TextTransparency = 1
+			KeyMain.Input.BackgroundTransparency = 1
+			KeyMain.Input.UIStroke.Transparency = 1
+			KeyMain.Input.InputBox.TextTransparency = 1
+			KeyMain.NoteTitle.TextTransparency = 1
+			KeyMain.NoteMessage.TextTransparency = 1
+			KeyMain.Hide.ImageTransparency = 1
+
+			TweenService:Create(KeyMain, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundTransparency = 0}):Play()
+			TweenService:Create(KeyMain, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Size = UDim2.new(0, 500, 0, 187)}):Play()
+			TweenService:Create(KeyMain.Shadow.Image, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {ImageTransparency = 0.5}):Play()
+			wait(0.05)
+			TweenService:Create(KeyMain.Title, TweenInfo.new(0.4, Enum.EasingStyle.Quint), {TextTransparency = 0}):Play()
+			TweenService:Create(KeyMain.Subtitle, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {TextTransparency = 0}):Play()
+			wait(0.05)
+			TweenService:Create(KeyMain.KeyNote, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {TextTransparency = 0}):Play()
+			TweenService:Create(KeyMain.Input, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {BackgroundTransparency = 0}):Play()
+			TweenService:Create(KeyMain.Input.UIStroke, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {Transparency = 0}):Play()
+			TweenService:Create(KeyMain.Input.InputBox, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {TextTransparency = 0}):Play()
+			wait(0.05)
+			TweenService:Create(KeyMain.NoteTitle, TweenInfo.new(0.4, Enum.EasingStyle.Quint), {TextTransparency = 0}):Play()
+			TweenService:Create(KeyMain.NoteMessage, TweenInfo.new(0.4, Enum.EasingStyle.Quint), {TextTransparency = 0}):Play()
+			wait(0.15)
+			TweenService:Create(KeyMain.Hide, TweenInfo.new(0.4, Enum.EasingStyle.Quint), {ImageTransparency = 0.3}):Play()
+
+
+			KeyUI.Main.Input.InputBox.FocusLost:Connect(function()
+				if KeyMain.Input.InputBox.Text == Settings.KeySettings.Key then
+					TweenService:Create(KeyMain, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundTransparency = 1}):Play()
+					TweenService:Create(KeyMain, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Size = UDim2.new(0, 467, 0, 175)}):Play()
+					TweenService:Create(KeyMain.Shadow.Image, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {ImageTransparency = 1}):Play()
+					TweenService:Create(KeyMain.Title, TweenInfo.new(0.4, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
+					TweenService:Create(KeyMain.Subtitle, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
+					TweenService:Create(KeyMain.KeyNote, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
+					TweenService:Create(KeyMain.Input, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {BackgroundTransparency = 1}):Play()
+					TweenService:Create(KeyMain.Input.UIStroke, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {Transparency = 1}):Play()
+					TweenService:Create(KeyMain.Input.InputBox, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
+					TweenService:Create(KeyMain.NoteTitle, TweenInfo.new(0.4, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
+					TweenService:Create(KeyMain.NoteMessage, TweenInfo.new(0.4, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
+					TweenService:Create(KeyMain.Hide, TweenInfo.new(0.4, Enum.EasingStyle.Quint), {ImageTransparency = 1}):Play()
+					wait(0.51)
+					Passthrough = true
+					if Settings.KeySettings.SaveKey then
+						if writefile then
+							writefile(RayfieldFolder.."/Key System".."/"..Settings.KeySettings.FileName..ConfigurationExtension, Settings.KeySettings.Key)
+						end
+						RayfieldLibrary:Notify({Title = "Key System", Content = "The key for this script has been saved successfully"})
+					end
+				else
+					if AttemptsRemaining == 0 then
+						TweenService:Create(KeyMain, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundTransparency = 1}):Play()
+						TweenService:Create(KeyMain, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Size = UDim2.new(0, 467, 0, 175)}):Play()
+						TweenService:Create(KeyMain.Shadow.Image, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {ImageTransparency = 1}):Play()
+						TweenService:Create(KeyMain.Title, TweenInfo.new(0.4, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
+						TweenService:Create(KeyMain.Subtitle, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
+						TweenService:Create(KeyMain.KeyNote, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
+						TweenService:Create(KeyMain.Input, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {BackgroundTransparency = 1}):Play()
+						TweenService:Create(KeyMain.Input.UIStroke, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {Transparency = 1}):Play()
+						TweenService:Create(KeyMain.Input.InputBox, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
+						TweenService:Create(KeyMain.NoteTitle, TweenInfo.new(0.4, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
+						TweenService:Create(KeyMain.NoteMessage, TweenInfo.new(0.4, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
+						TweenService:Create(KeyMain.Hide, TweenInfo.new(0.4, Enum.EasingStyle.Quint), {ImageTransparency = 1}):Play()
+						wait(0.45)
+						game.Players.LocalPlayer:Kick("No Attempts Remaining")
+						game:Shutdown()
+					end
+					KeyMain.Input.InputBox.Text = ""
+					AttemptsRemaining = AttemptsRemaining - 1
+					TweenService:Create(KeyMain, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Size = UDim2.new(0, 467, 0, 175)}):Play()
+					TweenService:Create(KeyMain, TweenInfo.new(0.4, Enum.EasingStyle.Elastic), {Position = UDim2.new(0.495,0,0.5,0)}):Play()
+					wait(0.1)
+					TweenService:Create(KeyMain, TweenInfo.new(0.4, Enum.EasingStyle.Elastic), {Position = UDim2.new(0.505,0,0.5,0)}):Play()
+					wait(0.1)
+					TweenService:Create(KeyMain, TweenInfo.new(0.4, Enum.EasingStyle.Quint), {Position = UDim2.new(0.5,0,0.5,0)}):Play()
+					TweenService:Create(KeyMain, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Size = UDim2.new(0, 500, 0, 187)}):Play()
+				end
+			end)
+
+			KeyMain.Hide.MouseButton1Click:Connect(function()
+				TweenService:Create(KeyMain, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundTransparency = 1}):Play()
+				TweenService:Create(KeyMain, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Size = UDim2.new(0, 467, 0, 175)}):Play()
+				TweenService:Create(KeyMain.Shadow.Image, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {ImageTransparency = 1}):Play()
+				TweenService:Create(KeyMain.Title, TweenInfo.new(0.4, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
+				TweenService:Create(KeyMain.Subtitle, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
+				TweenService:Create(KeyMain.KeyNote, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
+				TweenService:Create(KeyMain.Input, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {BackgroundTransparency = 1}):Play()
+				TweenService:Create(KeyMain.Input.UIStroke, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {Transparency = 1}):Play()
+				TweenService:Create(KeyMain.Input.InputBox, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
+				TweenService:Create(KeyMain.NoteTitle, TweenInfo.new(0.4, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
+				TweenService:Create(KeyMain.NoteMessage, TweenInfo.new(0.4, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
+				TweenService:Create(KeyMain.Hide, TweenInfo.new(0.4, Enum.EasingStyle.Quint), {ImageTransparency = 1}):Play()
+				wait(0.51)
+				RayfieldLibrary:Destroy()
+				KeyUI:Destroy()
+			end)
+		else
+			Passthrough = true
+		end
+	end
+	if Settings.KeySystem then
+		repeat wait() until Passthrough
+	end
+	
+	Notifications.Template.Visible = false
+	Notifications.Visible = true
+	Rayfield.Enabled = true
+	wait(0.5)
+	TweenService:Create(Main, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {BackgroundTransparency = 0}):Play()
+	TweenService:Create(Main.Shadow.Image, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {ImageTransparency = 0.55}):Play()
+	wait(0.1)
+	TweenService:Create(LoadingFrame.Title, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {TextTransparency = 0}):Play()
+	wait(0.05)
+	TweenService:Create(LoadingFrame.Subtitle, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {TextTransparency = 0}):Play()
+	wait(0.05)
+	TweenService:Create(LoadingFrame.Version, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {TextTransparency = 0}):Play()
+
+	Elements.Template.LayoutOrder = 100000
+	Elements.Template.Visible = false
+
+	Elements.UIPageLayout.FillDirection = Enum.FillDirection.Horizontal
+	TabList.Template.Visible = false
+
+	-- Tab
+	local FirstTab = false
+	local Window = {}
+	function Window:CreateTab(Name,Image)
+		local SDone = false
+		local TabButton = TabList.Template:Clone()
+		TabButton.Name = Name
+		TabButton.Title.Text = Name
+		TabButton.Parent = TabList
+		TabButton.Title.TextWrapped = false
+		TabButton.Size = UDim2.new(0, TabButton.Title.TextBounds.X + 30, 0, 30)
+		
+		if Image then
+			TabButton.Title.AnchorPoint = Vector2.new(0, 0.5)
+			TabButton.Title.Position = UDim2.new(0, 37, 0.5, 0)
+			TabButton.Image.Image = "rbxassetid://"..Image
+			TabButton.Image.Visible = true
+			TabButton.Title.TextXAlignment = Enum.TextXAlignment.Left
+			TabButton.Size = UDim2.new(0, TabButton.Title.TextBounds.X + 46, 0, 30)
+		end
+
+		TabButton.BackgroundTransparency = 1
+		TabButton.Title.TextTransparency = 1
+		TabButton.Shadow.ImageTransparency = 1
+		TabButton.Image.ImageTransparency = 1
+		TabButton.UIStroke.Transparency = 1
+
+		TabButton.Visible = true
+
+		-- Create Elements Page
+		local TabPage = Elements.Template:Clone()
+		TabPage.Name = Name
+		TabPage.Visible = true
+
+		TabPage.LayoutOrder = #Elements:GetChildren()
+
+		for _, TemplateElement in ipairs(TabPage:GetChildren()) do
+			if TemplateElement.ClassName == "Frame" and TemplateElement.Name ~= "Placeholder" then
+				TemplateElement:Destroy()
+			end
+		end
+
+		TabPage.Parent = Elements
+		if not FirstTab then
+			Elements.UIPageLayout.Animated = false
+			Elements.UIPageLayout:JumpTo(TabPage)
+		end
+		
+		if SelectedTheme ~= RayfieldLibrary.Theme.Default then
+			TabButton.Shadow.Visible = false
+		end
+		TabButton.UIStroke.Color = SelectedTheme.TabStroke
+		-- Animate
+		wait(0.1)
+		if FirstTab then
+			TabButton.BackgroundColor3 = SelectedTheme.TabBackground
+			TabButton.Image.ImageColor3 = SelectedTheme.TabTextColor
+			TabButton.Title.TextColor3 = SelectedTheme.TabTextColor
+			TweenService:Create(TabButton, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {BackgroundTransparency = 0.7}):Play()
+			TweenService:Create(TabButton.Title, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {TextTransparency = 0.2}):Play()
+			TweenService:Create(TabButton.Image, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {ImageTransparency = 0.2}):Play()
+			TweenService:Create(TabButton.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {Transparency = 0}):Play()
+			
+			TweenService:Create(TabButton.Shadow, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {ImageTransparency = 0.7}):Play()
+		else
+			FirstTab = Name
+			TabButton.BackgroundColor3 = SelectedTheme.TabBackgroundSelected
+			TabButton.Image.ImageColor3 = SelectedTheme.SelectedTabTextColor
+			TabButton.Title.TextColor3 = SelectedTheme.SelectedTabTextColor
+			TweenService:Create(TabButton.Shadow, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {ImageTransparency = 0.9}):Play()
+			TweenService:Create(TabButton.Image, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {ImageTransparency = 0}):Play()
+			TweenService:Create(TabButton, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {BackgroundTransparency = 0}):Play()
+			TweenService:Create(TabButton.Title, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {TextTransparency = 0}):Play()
+		end
+		
+
+		TabButton.Interact.MouseButton1Click:Connect(function()
+			if Minimised then return end
+			TweenService:Create(TabButton, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {BackgroundTransparency = 0}):Play()
+			TweenService:Create(TabButton.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {Transparency = 1}):Play()
+			TweenService:Create(TabButton.Title, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {TextTransparency = 0}):Play()
+			TweenService:Create(TabButton.Image, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {ImageTransparency = 0}):Play()
+			TweenService:Create(TabButton, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {BackgroundColor3 = SelectedTheme.TabBackgroundSelected}):Play()
+			TweenService:Create(TabButton.Title, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {TextColor3 = SelectedTheme.SelectedTabTextColor}):Play()
+			TweenService:Create(TabButton.Image, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {ImageColor3 = SelectedTheme.SelectedTabTextColor}):Play()
+			TweenService:Create(TabButton.Shadow, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {ImageTransparency = 0.9}):Play()
+
+			for _, OtherTabButton in ipairs(TabList:GetChildren()) do
+				if OtherTabButton.Name ~= "Template" and OtherTabButton.ClassName == "Frame" and OtherTabButton ~= TabButton and OtherTabButton.Name ~= "Placeholder" then
+					TweenService:Create(OtherTabButton, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {BackgroundColor3 = SelectedTheme.TabBackground}):Play()
+					TweenService:Create(OtherTabButton.Title, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {TextColor3 = SelectedTheme.TabTextColor}):Play()
+					TweenService:Create(OtherTabButton.Image, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {ImageColor3 = SelectedTheme.TabTextColor}):Play()
+					TweenService:Create(OtherTabButton, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {BackgroundTransparency = 0.7}):Play()
+					TweenService:Create(OtherTabButton.Title, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {TextTransparency = 0.2}):Play()
+					TweenService:Create(OtherTabButton.Image, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {ImageTransparency = 0.2}):Play()
+					TweenService:Create(OtherTabButton.Shadow, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {ImageTransparency = 0.7}):Play()
+					TweenService:Create(OtherTabButton.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {Transparency = 0}):Play()
+				end
+			end
+			if Elements.UIPageLayout.CurrentPage ~= TabPage then
+				Elements.UIPageLayout:JumpTo(TabPage)
+			end
+		end)
+
+		local Tab = {}
+
+		-- Button
+		function Tab:CreateButton(ButtonSettings)
+			local ButtonValue = {}
+
+			local Button = Elements.Template.Button:Clone()
+			Button.Name = ButtonSettings.Name
+			Button.Title.Text = ButtonSettings.Name
+			Button.Visible = true
+			Button.Parent = TabPage
+
+			Button.BackgroundTransparency = 1
+			Button.UIStroke.Transparency = 1
+			Button.Title.TextTransparency = 1
+
+			TweenService:Create(Button, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {BackgroundTransparency = 0}):Play()
+			TweenService:Create(Button.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {Transparency = 0}):Play()
+			TweenService:Create(Button.Title, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {TextTransparency = 0}):Play()	
+
+
+			Button.Interact.MouseButton1Click:Connect(function()
+				local Success, Response = pcall(ButtonSettings.Callback)
+				if not Success then
+					TweenService:Create(Button, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+					TweenService:Create(Button.ElementIndicator, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
+					TweenService:Create(Button.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Transparency = 1}):Play()
+					Button.Title.Text = "Callback Error"
+					print("Rayfield | "..ButtonSettings.Name.." Callback Error " ..tostring(Response))
+					wait(0.5)
+					Button.Title.Text = ButtonSettings.Name
+					TweenService:Create(Button, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+					TweenService:Create(Button.ElementIndicator, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {TextTransparency = 0.9}):Play()
+					TweenService:Create(Button.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Transparency = 0}):Play()
+				else
+					SaveConfiguration()
+					TweenService:Create(Button, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+					TweenService:Create(Button.ElementIndicator, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
+					TweenService:Create(Button.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Transparency = 1}):Play()
+					wait(0.2)
+					TweenService:Create(Button, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+					TweenService:Create(Button.ElementIndicator, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {TextTransparency = 0.9}):Play()
+					TweenService:Create(Button.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Transparency = 0}):Play()
+				end
+			end)
+
+			Button.MouseEnter:Connect(function()
+				TweenService:Create(Button, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+				TweenService:Create(Button.ElementIndicator, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {TextTransparency = 0.7}):Play()
+			end)
+
+			Button.MouseLeave:Connect(function()
+				TweenService:Create(Button, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+				TweenService:Create(Button.ElementIndicator, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {TextTransparency = 0.9}):Play()
+			end)
+
+			function ButtonValue:Set(NewButton)
+				Button.Title.Text = NewButton
+				Button.Name = NewButton
+			end
+
+			return ButtonValue
+		end
+		
+		-- ColorPicker
+		function Tab:CreateColorPicker(ColorPickerSettings) -- by Throit
+			ColorPickerSettings.Type = "ColorPicker"
+			local ColorPicker = Elements.Template.ColorPicker:Clone()
+			local Background = ColorPicker.CPBackground
+			local Display = Background.Display
+			local Main = Background.MainCP
+			local Slider = ColorPicker.ColorSlider
+			ColorPicker.ClipsDescendants = true
+			ColorPicker.Name = ColorPickerSettings.Name
+			ColorPicker.Title.Text = ColorPickerSettings.Name
+			ColorPicker.Visible = true
+			ColorPicker.Parent = TabPage
+			ColorPicker.Size = UDim2.new(1, -10, 0.028, 35)
+			Background.Size = UDim2.new(0, 39, 0, 22)
+			Display.BackgroundTransparency = 0
+			Main.MainPoint.ImageTransparency = 1
+			ColorPicker.Interact.Size = UDim2.new(1, 0, 1, 0)
+			ColorPicker.Interact.Position = UDim2.new(0.5, 0, 0.5, 0)
+			ColorPicker.RGB.Position = UDim2.new(0, 17, 0, 70)
+			ColorPicker.HexInput.Position = UDim2.new(0, 17, 0, 90)
+			Main.ImageTransparency = 1
+			Background.BackgroundTransparency = 1
+			
+			
+			
+			local opened = false 
+			local mouse = game.Players.LocalPlayer:GetMouse()
+			Main.Image = "http://www.roblox.com/asset/?id=11415645739"
+			local mainDragging = false 
+			local sliderDragging = false 
+			ColorPicker.Interact.MouseButton1Down:Connect(function()
+				if not opened then
+					opened = true 
+					TweenService:Create(ColorPicker, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Size = UDim2.new(1, -10, 0.224, 40)}):Play()
+					TweenService:Create(Background, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Size = UDim2.new(0, 173, 0, 86)}):Play()
+					TweenService:Create(Display, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundTransparency = 1}):Play()
+					TweenService:Create(ColorPicker.Interact, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Position = UDim2.new(0.289, 0, 0.5, 0)}):Play()
+					TweenService:Create(ColorPicker.RGB, TweenInfo.new(0.8, Enum.EasingStyle.Quint), {Position = UDim2.new(0, 17, 0, 40)}):Play()
+					TweenService:Create(ColorPicker.HexInput, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {Position = UDim2.new(0, 17, 0, 73)}):Play()
+					TweenService:Create(ColorPicker.Interact, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Size = UDim2.new(0.574, 0, 1, 0)}):Play()
+					TweenService:Create(Main.MainPoint, TweenInfo.new(0.2, Enum.EasingStyle.Quint), {ImageTransparency = 0}):Play()
+					TweenService:Create(Main, TweenInfo.new(0.2, Enum.EasingStyle.Quint), {ImageTransparency = 0.1}):Play()
+					TweenService:Create(Background, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundTransparency = 0}):Play()
+				else
+					opened = false
+					TweenService:Create(ColorPicker, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Size = UDim2.new(1, -10, 0.028, 35)}):Play()
+					TweenService:Create(Background, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Size = UDim2.new(0, 39, 0, 22)}):Play()
+					TweenService:Create(ColorPicker.Interact, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Size = UDim2.new(1, 0, 1, 0)}):Play()
+					TweenService:Create(ColorPicker.Interact, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Position = UDim2.new(0.5, 0, 0.5, 0)}):Play()
+					TweenService:Create(ColorPicker.RGB, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Position = UDim2.new(0, 17, 0, 70)}):Play()
+					TweenService:Create(ColorPicker.HexInput, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {Position = UDim2.new(0, 17, 0, 90)}):Play()
+					TweenService:Create(Display, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundTransparency = 0}):Play()
+					TweenService:Create(Main.MainPoint, TweenInfo.new(0.2, Enum.EasingStyle.Quint), {ImageTransparency = 1}):Play()
+					TweenService:Create(Main, TweenInfo.new(0.2, Enum.EasingStyle.Quint), {ImageTransparency = 1}):Play()
+					TweenService:Create(Background, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundTransparency = 1}):Play()
+				end
+			end)
+			
+			game:GetService("UserInputService").InputEnded:Connect(function(input, gameProcessed) if input.UserInputType == Enum.UserInputType.MouseButton1 then 
+					mainDragging = false
+					sliderDragging = false
+			end end)
+			Main.MouseButton1Down:Connect(function()
+				if opened then
+					mainDragging = true 
+				end
+			end)
+			Main.MainPoint.MouseButton1Down:Connect(function()
+				if opened then
+					mainDragging = true 
+				end
+			end)
+			Slider.MouseButton1Down:Connect(function()
+				sliderDragging = true 
+			end)
+			Slider.SliderPoint.MouseButton1Down:Connect(function()
+				sliderDragging = true 
+			end)
+			local h,s,v = ColorPickerSettings.Color:ToHSV()
+			local color = Color3.fromHSV(h,s,v) 
+			local hex = string.format("#%02X%02X%02X",color.R*0xFF,color.G*0xFF,color.B*0xFF)
+			ColorPicker.HexInput.InputBox.Text = hex
+			local function setDisplay()
+				--Main
+				Main.MainPoint.Position = UDim2.new(s,-Main.MainPoint.AbsoluteSize.X/2,1-v,-Main.MainPoint.AbsoluteSize.Y/2)
+				Main.MainPoint.ImageColor3 = Color3.fromHSV(h,s,v)
+				Background.BackgroundColor3 = Color3.fromHSV(h,1,1)
+				Display.BackgroundColor3 = Color3.fromHSV(h,s,v)
+				--Slider 
+				local x = h * Slider.AbsoluteSize.X
+				Slider.SliderPoint.Position = UDim2.new(0,x-Slider.SliderPoint.AbsoluteSize.X/2,0.5,0)
+				Slider.SliderPoint.ImageColor3 = Color3.fromHSV(h,1,1)
+				local color = Color3.fromHSV(h,s,v) 
+				local r,g,b = math.floor((color.R*255)+0.5),math.floor((color.G*255)+0.5),math.floor((color.B*255)+0.5)
+				ColorPicker.RGB.RInput.InputBox.Text = tostring(r)
+				ColorPicker.RGB.GInput.InputBox.Text = tostring(g)
+				ColorPicker.RGB.BInput.InputBox.Text = tostring(b)
+				hex = string.format("#%02X%02X%02X",color.R*0xFF,color.G*0xFF,color.B*0xFF)
+				ColorPicker.HexInput.InputBox.Text = hex
+			end
+			setDisplay()
+			ColorPicker.HexInput.InputBox.FocusLost:Connect(function()
+				if not pcall(function()
+						local r, g, b = string.match(ColorPicker.HexInput.InputBox.Text, "^#?(%w%w)(%w%w)(%w%w)$")
+						local rgbColor = Color3.fromRGB(tonumber(r, 16),tonumber(g, 16), tonumber(b, 16))
+						h,s,v = rgbColor:ToHSV()
+						hex = ColorPicker.HexInput.InputBox.Text
+						setDisplay()
+						ColorPickerSettings.Color = rgbColor
+					end) 
+				then 
+					ColorPicker.HexInput.InputBox.Text = hex 
+				end
+				pcall(function()ColorPickerSettings.Callback(Color3.fromHSV(h,s,v))end)
+				local r,g,b = math.floor((h*255)+0.5),math.floor((s*255)+0.5),math.floor((v*255)+0.5)
+				ColorPickerSettings.Color = Color3.fromRGB(r,g,b)
+				SaveConfiguration()
+			end)
+			--RGB
+			local function rgbBoxes(box,toChange)
+				local value = tonumber(box.Text) 
+				local color = Color3.fromHSV(h,s,v) 
+				local oldR,oldG,oldB = math.floor((color.R*255)+0.5),math.floor((color.G*255)+0.5),math.floor((color.B*255)+0.5)
+				local save 
+				if toChange == "R" then save = oldR;oldR = value elseif toChange == "G" then save = oldG;oldG = value else save = oldB;oldB = value end
+				if value then 
+					value = math.clamp(value,0,255)
+					h,s,v = Color3.fromRGB(oldR,oldG,oldB):ToHSV()
+					
+					setDisplay()
+				else 
+					box.Text = tostring(save)
+				end
+				local r,g,b = math.floor((h*255)+0.5),math.floor((s*255)+0.5),math.floor((v*255)+0.5)
+				ColorPickerSettings.Color = Color3.fromRGB(r,g,b)
+				SaveConfiguration()
+			end
+			ColorPicker.RGB.RInput.InputBox.FocusLost:connect(function()
+				rgbBoxes(ColorPicker.RGB.RInput.InputBox,"R")
+				pcall(function()ColorPickerSettings.Callback(Color3.fromHSV(h,s,v))end)
+			end)
+			ColorPicker.RGB.GInput.InputBox.FocusLost:connect(function()
+				rgbBoxes(ColorPicker.RGB.GInput.InputBox,"G")
+				pcall(function()ColorPickerSettings.Callback(Color3.fromHSV(h,s,v))end)
+			end)
+			ColorPicker.RGB.BInput.InputBox.FocusLost:connect(function()
+				rgbBoxes(ColorPicker.RGB.BInput.InputBox,"B")
+				pcall(function()ColorPickerSettings.Callback(Color3.fromHSV(h,s,v))end)
+			end)
+
+			game:GetService("RunService").RenderStepped:connect(function()
+				if mainDragging then 
+					local localX = math.clamp(mouse.X-Main.AbsolutePosition.X,0,Main.AbsoluteSize.X)
+					local localY = math.clamp(mouse.Y-Main.AbsolutePosition.Y,0,Main.AbsoluteSize.Y)
+					Main.MainPoint.Position = UDim2.new(0,localX-Main.MainPoint.AbsoluteSize.X/2,0,localY-Main.MainPoint.AbsoluteSize.Y/2)
+					s = localX / Main.AbsoluteSize.X
+					v = 1 - (localY / Main.AbsoluteSize.Y)
+					Display.BackgroundColor3 = Color3.fromHSV(h,s,v)
+					Main.MainPoint.ImageColor3 = Color3.fromHSV(h,s,v)
+					Background.BackgroundColor3 = Color3.fromHSV(h,1,1)
+					local color = Color3.fromHSV(h,s,v) 
+					local r,g,b = math.floor((color.R*255)+0.5),math.floor((color.G*255)+0.5),math.floor((color.B*255)+0.5)
+					ColorPicker.RGB.RInput.InputBox.Text = tostring(r)
+					ColorPicker.RGB.GInput.InputBox.Text = tostring(g)
+					ColorPicker.RGB.BInput.InputBox.Text = tostring(b)
+					ColorPicker.HexInput.InputBox.Text = string.format("#%02X%02X%02X",color.R*0xFF,color.G*0xFF,color.B*0xFF)
+					pcall(function()ColorPickerSettings.Callback(Color3.fromHSV(h,s,v))end)
+					ColorPickerSettings.Color = Color3.fromRGB(r,g,b)
+					SaveConfiguration()
+				end
+				if sliderDragging then 
+					local localX = math.clamp(mouse.X-Slider.AbsolutePosition.X,0,Slider.AbsoluteSize.X)
+					h = localX / Slider.AbsoluteSize.X
+					Display.BackgroundColor3 = Color3.fromHSV(h,s,v)
+					Slider.SliderPoint.Position = UDim2.new(0,localX-Slider.SliderPoint.AbsoluteSize.X/2,0.5,0)
+					Slider.SliderPoint.ImageColor3 = Color3.fromHSV(h,1,1)
+					Background.BackgroundColor3 = Color3.fromHSV(h,1,1)
+					Main.MainPoint.ImageColor3 = Color3.fromHSV(h,s,v)
+					local color = Color3.fromHSV(h,s,v) 
+					local r,g,b = math.floor((color.R*255)+0.5),math.floor((color.G*255)+0.5),math.floor((color.B*255)+0.5)
+					ColorPicker.RGB.RInput.InputBox.Text = tostring(r)
+					ColorPicker.RGB.GInput.InputBox.Text = tostring(g)
+					ColorPicker.RGB.BInput.InputBox.Text = tostring(b)
+					ColorPicker.HexInput.InputBox.Text = string.format("#%02X%02X%02X",color.R*0xFF,color.G*0xFF,color.B*0xFF)
+					pcall(function()ColorPickerSettings.Callback(Color3.fromHSV(h,s,v))end)
+					ColorPickerSettings.Color = Color3.fromRGB(r,g,b)
+					SaveConfiguration()
+				end
+			end)
+			
+			if Settings.ConfigurationSaving then
+				if Settings.ConfigurationSaving.Enabled and ColorPickerSettings.Flag then
+					RayfieldLibrary.Flags[ColorPickerSettings.Flag] = ColorPickerSettings
+				end
+			end
+			
+			function ColorPickerSettings:Set(RGBColor)
+				ColorPickerSettings.Color = RGBColor
+				h,s,v = ColorPickerSettings.Color:ToHSV()
+				color = Color3.fromHSV(h,s,v)
+				setDisplay()
+			end
+			
+			return ColorPickerSettings
+		end
+		
+		-- Section
+		function Tab:CreateSection(SectionName)
+
+			local SectionValue = {}
+
+			if SDone then
+				local SectionSpace = Elements.Template.SectionSpacing:Clone()
+				SectionSpace.Visible = true
+				SectionSpace.Parent = TabPage
+			end
+
+			local Section = Elements.Template.SectionTitle:Clone()
+			Section.Title.Text = SectionName
+			Section.Visible = true
+			Section.Parent = TabPage
+
+			Section.Title.TextTransparency = 1
+			TweenService:Create(Section.Title, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {TextTransparency = 0}):Play()
+
+			function SectionValue:Set(NewSection)
+				Section.Title.Text = NewSection
+			end
+
+			SDone = true
+
+			return SectionValue
+		end
+
+		-- Label
+		function Tab:CreateLabel(LabelText)
+			local LabelValue = {}
+
+			local Label = Elements.Template.Label:Clone()
+			Label.Title.Text = LabelText
+			Label.Visible = true
+			Label.Parent = TabPage
+
+			Label.BackgroundTransparency = 1
+			Label.UIStroke.Transparency = 1
+			Label.Title.TextTransparency = 1
+			
+			Label.BackgroundColor3 = SelectedTheme.SecondaryElementBackground
+			Label.UIStroke.Color = SelectedTheme.SecondaryElementStroke
+
+			TweenService:Create(Label, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {BackgroundTransparency = 0}):Play()
+			TweenService:Create(Label.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {Transparency = 0}):Play()
+			TweenService:Create(Label.Title, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {TextTransparency = 0}):Play()	
+
+			function LabelValue:Set(NewLabel)
+				Label.Title.Text = NewLabel
+			end
+
+			return LabelValue
+		end
+
+		-- Paragraph
+		function Tab:CreateParagraph(ParagraphSettings)
+			local ParagraphValue = {}
+
+			local Paragraph = Elements.Template.Paragraph:Clone()
+			Paragraph.Title.Text = ParagraphSettings.Title
+			Paragraph.Content.Text = ParagraphSettings.Content
+			Paragraph.Visible = true
+			Paragraph.Parent = TabPage
+
+			Paragraph.Content.Size = UDim2.new(0, 438, 0, Paragraph.Content.TextBounds.Y)
+			Paragraph.Content.Position = UDim2.new(1, -10, 0.575,0 )
+			Paragraph.Size = UDim2.new(1, -10, 0, Paragraph.Content.TextBounds.Y + 40)
+
+			Paragraph.BackgroundTransparency = 1
+			Paragraph.UIStroke.Transparency = 1
+			Paragraph.Title.TextTransparency = 1
+			Paragraph.Content.TextTransparency = 1
+			
+			Paragraph.BackgroundColor3 = SelectedTheme.SecondaryElementBackground
+			Paragraph.UIStroke.Color = SelectedTheme.SecondaryElementStroke
+			
+			TweenService:Create(Paragraph, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {BackgroundTransparency = 0}):Play()
+			TweenService:Create(Paragraph.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {Transparency = 0}):Play()
+			TweenService:Create(Paragraph.Title, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {TextTransparency = 0}):Play()	
+			TweenService:Create(Paragraph.Content, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {TextTransparency = 0}):Play()	
+
+			function ParagraphValue:Set(NewParagraphSettings)
+				Paragraph.Title.Text = NewParagraphSettings.Title
+				Paragraph.Content.Text = NewParagraphSettings.Content
+			end
+
+			return ParagraphValue
+		end
+
+		-- Input
+		function Tab:CreateInput(InputSettings)
+			local Input = Elements.Template.Input:Clone()
+			Input.Name = InputSettings.Name
+			Input.Title.Text = InputSettings.Name
+			Input.Visible = true
+			Input.Parent = TabPage
+
+			Input.BackgroundTransparency = 1
+			Input.UIStroke.Transparency = 1
+			Input.Title.TextTransparency = 1
+			
+			Input.InputFrame.BackgroundColor3 = SelectedTheme.InputBackground
+			Input.InputFrame.UIStroke.Color = SelectedTheme.InputStroke
+
+			TweenService:Create(Input, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {BackgroundTransparency = 0}):Play()
+			TweenService:Create(Input.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {Transparency = 0}):Play()
+			TweenService:Create(Input.Title, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {TextTransparency = 0}):Play()	
+			local Success, Response = pcall(function()
+				Input.InputFrame.InputBox.PlaceholderText = InputSettings.PlaceholderText
+			end)
+			if not Success then
+				Input.InputFrame.InputBox.PlaceholderText = ""
+			end
+			Input.InputFrame.Size = UDim2.new(0, Input.InputFrame.InputBox.TextBounds.X + 24, 0, 30)
+
+			Input.InputFrame.InputBox.FocusLost:Connect(function()
+				local Success, Response = pcall(function()
+					InputSettings.Callback(Input.InputFrame.InputBox.Text)
+					Input.InputFrame.InputBox.PlaceholderText = Input.InputFrame.InputBox.Text
+				end)
+				if not Success then
+					TweenService:Create(Input, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+					TweenService:Create(Input.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Transparency = 1}):Play()
+					Input.Title.Text = "Callback Error"
+					print("Rayfield | "..InputSettings.Name.." Callback Error " ..tostring(Response))
+					wait(0.5)
+					Input.Title.Text = InputSettings.Name
+					TweenService:Create(Input, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+					TweenService:Create(Input.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Transparency = 0}):Play()
+				end
+				
+				if InputSettings.RemoveTextAfterFocusLost then
+					Input.InputFrame.InputBox.Text = ""
+				end
+				SaveConfiguration()
+			end)
+
+			Input.MouseEnter:Connect(function()
+				TweenService:Create(Input, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+			end)
+
+			Input.MouseLeave:Connect(function()
+				TweenService:Create(Input, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+			end)
+
+			Input.InputFrame.InputBox:GetPropertyChangedSignal("Text"):Connect(function()
+				TweenService:Create(Input.InputFrame, TweenInfo.new(0.55, Enum.EasingStyle.Quint, Enum.EasingDirection.Out), {Size = UDim2.new(0, Input.InputFrame.InputBox.TextBounds.X + 24, 0, 30)}):Play()
+			end)
+		end
+
+		-- Dropdown
+		function Tab:CreateDropdown(DropdownSettings)
+			local Dropdown = Elements.Template.Dropdown:Clone()
+			if string.find(DropdownSettings.Name,"closed") then
+				Dropdown.Name = "Dropdown"
+			else
+				Dropdown.Name = DropdownSettings.Name
+			end
+			Dropdown.Title.Text = DropdownSettings.Name
+			Dropdown.Visible = true
+			Dropdown.Parent = TabPage
+
+			Dropdown.List.Visible = false
+
+			Dropdown.Selected.Text = DropdownSettings.CurrentOption
+
+			Dropdown.BackgroundTransparency = 1
+			Dropdown.UIStroke.Transparency = 1
+			Dropdown.Title.TextTransparency = 1
+
+			Dropdown.Size = UDim2.new(1, -10, 0, 45)
+
+			TweenService:Create(Dropdown, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {BackgroundTransparency = 0}):Play()
+			TweenService:Create(Dropdown.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {Transparency = 0}):Play()
+			TweenService:Create(Dropdown.Title, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {TextTransparency = 0}):Play()	
+
+			for _, ununusedoption in ipairs(Dropdown.List:GetChildren()) do
+				if ununusedoption.ClassName == "Frame" and ununusedoption.Name ~= "Placeholder" then
+					ununusedoption:Destroy()
+				end
+			end
+
+			Dropdown.Toggle.Rotation = 180
+
+			Dropdown.Interact.MouseButton1Click:Connect(function()
+				TweenService:Create(Dropdown, TweenInfo.new(0.4, Enum.EasingStyle.Quint), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+				TweenService:Create(Dropdown.UIStroke, TweenInfo.new(0.4, Enum.EasingStyle.Quint), {Transparency = 1}):Play()
+				wait(0.1)
+				TweenService:Create(Dropdown, TweenInfo.new(0.4, Enum.EasingStyle.Quint), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+				TweenService:Create(Dropdown.UIStroke, TweenInfo.new(0.4, Enum.EasingStyle.Quint), {Transparency = 0}):Play()
+				if Debounce then return end
+				if Dropdown.List.Visible then
+					Debounce = true
+					TweenService:Create(Dropdown, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {Size = UDim2.new(1, -10, 0, 45)}):Play()
+					for _, DropdownOpt in ipairs(Dropdown.List:GetChildren()) do
+						if DropdownOpt.ClassName == "Frame" and DropdownOpt.Name ~= "Placeholder" then
+							TweenService:Create(DropdownOpt, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {BackgroundTransparency = 1}):Play()
+							TweenService:Create(DropdownOpt.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {Transparency = 1}):Play()
+							TweenService:Create(DropdownOpt.Title, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
+						end
+					end
+					TweenService:Create(Dropdown.List, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {ScrollBarImageTransparency = 1}):Play()
+					TweenService:Create(Dropdown.Toggle, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {Rotation = 180}):Play()	
+					wait(0.35)
+					Dropdown.List.Visible = false
+					Debounce = false
+				else
+					TweenService:Create(Dropdown, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {Size = UDim2.new(1, -10, 0, 180)}):Play()
+					Dropdown.List.Visible = true
+					TweenService:Create(Dropdown.List, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {ScrollBarImageTransparency = 0.7}):Play()
+					TweenService:Create(Dropdown.Toggle, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {Rotation = 0}):Play()	
+					for _, DropdownOpt in ipairs(Dropdown.List:GetChildren()) do
+						if DropdownOpt.ClassName == "Frame" and DropdownOpt.Name ~= "Placeholder" then
+							TweenService:Create(DropdownOpt, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {BackgroundTransparency = 0}):Play()
+							TweenService:Create(DropdownOpt.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {Transparency = 0}):Play()
+							TweenService:Create(DropdownOpt.Title, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {TextTransparency = 0}):Play()
+						end
+					end
+				end
+			end)
+
+			Dropdown.MouseEnter:Connect(function()
+				if not Dropdown.List.Visible then
+					TweenService:Create(Dropdown, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+				end
+			end)
+
+			Dropdown.MouseLeave:Connect(function()
+				TweenService:Create(Dropdown, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+			end)
+
+			for _, Option in ipairs(DropdownSettings.Options) do
+				local DropdownOption = Elements.Template.Dropdown.List.Template:Clone()
+				DropdownOption.Name = Option
+				DropdownOption.Title.Text = Option
+				DropdownOption.Parent = Dropdown.List
+				DropdownOption.Visible = true
+
+				if DropdownSettings.CurrentOption == Option then
+					DropdownOption.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+				end
+
+				DropdownOption.BackgroundTransparency = 1
+				DropdownOption.UIStroke.Transparency = 1
+				DropdownOption.Title.TextTransparency = 1
+
+				DropdownOption.Interact.ZIndex = 50
+				DropdownOption.Interact.MouseButton1Click:Connect(function()
+					if Dropdown.Selected.Text ~= Option then
+						Dropdown.Selected.Text = Option
+						
+						local Success, Response = pcall(function()
+							DropdownSettings.Callback(Option)
+						end)
+						if not Success then
+							TweenService:Create(Dropdown, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+							TweenService:Create(Dropdown.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Transparency = 1}):Play()
+							Dropdown.Title.Text = "Callback Error"
+							print("Rayfield | "..DropdownSettings.Name.." Callback Error " ..tostring(Response))
+							wait(0.5)
+							Dropdown.Title.Text = DropdownSettings.Name
+							TweenService:Create(Dropdown, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+							TweenService:Create(Dropdown.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Transparency = 0}):Play()
+						end
+						DropdownSettings.CurrentOption = Option
+						for _, droption in ipairs(Dropdown.List:GetChildren()) do
+							if droption.ClassName == "Frame" and droption.Name ~= "Placeholder" and droption.Name ~= DropdownSettings.CurrentOption then
+								TweenService:Create(droption, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {BackgroundColor3 = Color3.fromRGB(30, 30, 30)}):Play()
+							end
+						end
+						TweenService:Create(DropdownOption.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {Transparency = 1}):Play()
+						TweenService:Create(DropdownOption, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {BackgroundColor3 = Color3.fromRGB(40, 40, 40)}):Play()
+						Debounce = true
+						wait(0.2)
+						TweenService:Create(DropdownOption.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {Transparency = 0}):Play()
+						wait(0.1)
+						TweenService:Create(Dropdown, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {Size = UDim2.new(1, -10, 0, 45)}):Play()
+						for _, DropdownOpt in ipairs(Dropdown.List:GetChildren()) do
+							if DropdownOpt.ClassName == "Frame" and DropdownOpt.Name ~= "Placeholder" then
+								TweenService:Create(DropdownOpt, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {BackgroundTransparency = 1}):Play()
+								TweenService:Create(DropdownOpt.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {Transparency = 1}):Play()
+								TweenService:Create(DropdownOpt.Title, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
+							end
+						end
+						TweenService:Create(Dropdown.List, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {ScrollBarImageTransparency = 1}):Play()
+						TweenService:Create(Dropdown.Toggle, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {Rotation = 180}):Play()	
+						wait(0.35)
+						Dropdown.List.Visible = false
+						Debounce = false	
+						SaveConfiguration()
+					end
+				end)
+			end
+
+
+			function DropdownSettings:Set(NewOption)
+				Dropdown.Selected.Text = NewOption
+				DropdownSettings.CurrentOption = NewOption
+				local Success, Response = pcall(function()
+					DropdownSettings.Callback(NewOption)
+				end)
+				if not Success then
+					TweenService:Create(Dropdown, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+					TweenService:Create(Dropdown.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Transparency = 1}):Play()
+					Dropdown.Title.Text = "Callback Error"
+					print("Rayfield | "..DropdownSettings.Name.." Callback Error " ..tostring(Response))
+					wait(0.5)
+					Dropdown.Title.Text = DropdownSettings.Name
+					TweenService:Create(Dropdown, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+					TweenService:Create(Dropdown.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Transparency = 0}):Play()
+				end
+
+				for _, droption in ipairs(Dropdown.List:GetChildren()) do
+					if droption.Name ~= NewOption then
+						if droption.ClassName == "Frame" and droption.Name ~= "Placeholder" then
+							droption.BackgroundColor3 = Color3.fromRGB(30, 30, 30)
+						end
+					else
+						droption.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+					end
+
+				end
+			end
+			
+			local function RefreshSelected()
+				if #DropdownSettings.Items.Selected > 1 then
+					local NT = {}
+					for _,kj in DropdownSettings.Items.Selected do
+						NT[#NT+1] = kj.Option.Name
+					end
+					Dropdown.Selected.Text = table.concat(NT, ", ")
+				elseif DropdownSettings.Items.Selected[1] then
+					Dropdown.Selected.Text = DropdownSettings.Items.Selected[1].Option.Name
+				else
+					Dropdown.Selected.Text = "Select an option"
+				end
+			end
+			
+			local function AddOption(Option,Selecteds)
+				local DropdownOption = Elements.Template.Dropdown.List.Template:Clone()
+				DropdownOption:GetPropertyChangedSignal('BackgroundTransparency'):Connect(function()
+					if DropdownOption.BackgroundTransparency == 1 then
+						DropdownOption.Visible = false
+					else
+						DropdownOption.Visible = true
+					end
+				end)
+				DropdownSettings.Items[Option] = {
+					Option = DropdownOption,
+					Selected = false
+				}
+				local OptionInTable = DropdownSettings.Items[Option]
+				DropdownOption.Name = Option.Name or Option
+				DropdownOption.Title.Text = Option.Name or Option
+				DropdownOption.Parent = Dropdown.List
+				DropdownOption.Visible = true
+				local IsSelected = OptionInTable.Selected
+				if Selecteds and #Selecteds > 0 then
+					if typeof(Selecteds) == 'string' then
+						Selecteds = {Selecteds}
+					end
+					for index,Selected in pairs(Selecteds) do
+						if Selected == Option then
+							IsSelected = true
+							OptionInTable.Selected = true
+							table.insert(DropdownSettings.Items.Selected,OptionInTable)
+							DropdownSettings.Items.Selected[table.find(DropdownSettings.Items.Selected,OptionInTable)].Selected = true
+						end
+					end
+					RefreshSelected()
+				end
+
+				if IsSelected then
+					DropdownOption.BackgroundColor3 = Color3.fromRGB(40, 40, 40)
+				end
+
+				if Dropdown.Visible then
+					DropdownOption.BackgroundTransparency = 0
+					DropdownOption.UIStroke.Transparency = 0
+					DropdownOption.Title.TextTransparency = 0
+				else
+					DropdownOption.BackgroundTransparency = 1
+					DropdownOption.UIStroke.Transparency = 1
+					DropdownOption.Title.TextTransparency = 1
+				end
+
+				DropdownOption.Interact.ZIndex = 50
+				DropdownOption.Interact.MouseButton1Click:Connect(function()
+					if DropdownSettings.Locked then return end
+					if OptionInTable.Selected then
+						OptionInTable.Selected = false
+						table.remove(DropdownSettings.Items.Selected,table.find(DropdownSettings.Items.Selected,OptionInTable))
+						RefreshSelected()
+						TweenService:Create(DropdownOption, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {BackgroundColor3 = Color3.fromRGB(30, 30, 30)}):Play()
+						SaveConfiguration()
+						return
+					end
+					if not Multi and DropdownSettings.Items.Selected[1] then
+						DropdownSettings.Items.Selected[1].Selected = false
+						TweenService:Create(DropdownSettings.Items.Selected[1].Option, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {BackgroundColor3 = Color3.fromRGB(30, 30, 30)}):Play()
+					end
+					if not (Multi) then
+						DropdownSettings.Items.Selected = {OptionInTable}
+						Dropdown.Selected.Text = Option.Name or Option
+					else
+						table.insert(DropdownSettings.Items.Selected,OptionInTable)
+						RefreshSelected()
+					end
+					
+					local Success, Response = pcall(function()
+						DropdownSettings.Callback(Option)
+					end)
+					if not Success then
+						Error('Callback Error')
+						print("Rayfield | "..DropdownSettings.Name.." Callback Error " ..tostring(Response))
+					end
+					
+					OptionInTable.Selected = true
+
+					TweenService:Create(DropdownOption.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {Transparency = 1}):Play()
+					TweenService:Create(DropdownOption, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {BackgroundColor3 = Color3.fromRGB(40, 40, 40)}):Play()
+					Debounce = true
+					wait(0.2)
+					TweenService:Create(DropdownOption.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {Transparency = 0}):Play()
+					wait(0.1)
+					if not Multi then
+						TweenService:Create(Dropdown, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {Size = UDim2.new(0,465, 0, 45)}):Play()
+						for _, DropdownOpt in ipairs(Dropdown.List:GetChildren()) do
+							if DropdownOpt.ClassName == "Frame" and DropdownOpt.Name ~= 'PlaceHolder' then
+								TweenService:Create(DropdownOpt, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {BackgroundTransparency = 1}):Play()
+								TweenService:Create(DropdownOpt.UIStroke, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {Transparency = 1}):Play()
+								TweenService:Create(DropdownOpt.Title, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
+							end
+						end
+						TweenService:Create(Dropdown.List, TweenInfo.new(0.3, Enum.EasingStyle.Quint), {ScrollBarImageTransparency = 1}):Play()
+						TweenService:Create(Dropdown.Toggle, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {Rotation = 180}):Play()	
+						wait(0.35)
+						Dropdown.List.Visible = false
+						
+					end
+					Debounce = false
+					SaveConfiguration()
+				end)
+			end
+            local function AddOptions(Options,Selected)
+				if typeof(Options) == 'table' then
+					for _, Option in ipairs(Options) do
+						AddOption(Option,Selected)
+					end
+				else
+					AddOption(Options,Selected)
+				end
+				if Settings.ConfigurationSaving then
+					if Settings.ConfigurationSaving.Enabled and DropdownSettings.Flag then
+						RayfieldLibrary.Flags[DropdownSettings.Flag] = DropdownSettings
+					end
+				end
+            end
+		
+            function DropdownSettings:Refresh(NewOptions,Selecteds)
+				DropdownSettings.Items = {}
+				DropdownSettings.Items.Selected = {}
+				for _, option in ipairs(Dropdown.List:GetChildren()) do
+					if option.ClassName == "Frame" and option.Name ~= 'PlaceHolder' then
+						option:Destroy()
+					end
+				end
+				AddOptions(NewOptions,Selecteds)
+            end
+            
+			if Settings.ConfigurationSaving then
+				if Settings.ConfigurationSaving.Enabled and DropdownSettings.Flag then
+					RayfieldLibrary.Flags[DropdownSettings.Flag] = DropdownSettings
+				end
+			end
+		
+			return DropdownSettings
+		end
+
+		-- Keybind
+		function Tab:CreateKeybind(KeybindSettings)
+			local CheckingForKey = false
+			local Keybind = Elements.Template.Keybind:Clone()
+			Keybind.Name = KeybindSettings.Name
+			Keybind.Title.Text = KeybindSettings.Name
+			Keybind.Visible = true
+			Keybind.Parent = TabPage
+
+			Keybind.BackgroundTransparency = 1
+			Keybind.UIStroke.Transparency = 1
+			Keybind.Title.TextTransparency = 1
+			
+			Keybind.KeybindFrame.BackgroundColor3 = SelectedTheme.InputBackground
+			Keybind.KeybindFrame.UIStroke.Color = SelectedTheme.InputStroke
+
+			TweenService:Create(Keybind, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {BackgroundTransparency = 0}):Play()
+			TweenService:Create(Keybind.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {Transparency = 0}):Play()
+			TweenService:Create(Keybind.Title, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {TextTransparency = 0}):Play()	
+
+			Keybind.KeybindFrame.KeybindBox.Text = KeybindSettings.CurrentKeybind
+			Keybind.KeybindFrame.Size = UDim2.new(0, Keybind.KeybindFrame.KeybindBox.TextBounds.X + 24, 0, 30)
+
+			Keybind.KeybindFrame.KeybindBox.Focused:Connect(function()
+				CheckingForKey = true
+				Keybind.KeybindFrame.KeybindBox.Text = ""
+			end)
+			Keybind.KeybindFrame.KeybindBox.FocusLost:Connect(function()
+				CheckingForKey = false
+				if Keybind.KeybindFrame.KeybindBox.Text == nil or "" then
+					Keybind.KeybindFrame.KeybindBox.Text = KeybindSettings.CurrentKeybind
+					SaveConfiguration()
+				end
+			end)
+
+			Keybind.MouseEnter:Connect(function()
+				TweenService:Create(Keybind, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+			end)
+
+			Keybind.MouseLeave:Connect(function()
+				TweenService:Create(Keybind, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+			end)
+
+			UserInputService.InputBegan:Connect(function(input, processed)
+
+				if CheckingForKey then
+					if input.KeyCode ~= Enum.KeyCode.Unknown and input.KeyCode ~= Enum.KeyCode.RightShift then
+						local SplitMessage = string.split(tostring(input.KeyCode), ".")
+						local NewKeyNoEnum = SplitMessage[3]
+						Keybind.KeybindFrame.KeybindBox.Text = tostring(NewKeyNoEnum)
+						KeybindSettings.CurrentKeybind = tostring(NewKeyNoEnum)
+						Keybind.KeybindFrame.KeybindBox:ReleaseFocus()
+						SaveConfiguration()
+					end
+				elseif KeybindSettings.CurrentKeybind ~= nil and (input.KeyCode == Enum.KeyCode[KeybindSettings.CurrentKeybind] and not processed) then -- Test
+					local Held = true
+					local Connection
+					Connection = input.Changed:Connect(function(prop)
+						if prop == "UserInputState" then
+							Connection:Disconnect()
+							Held = false
+						end
+					end)
+
+					if not KeybindSettings.HoldToInteract then
+						local Success, Response = pcall(KeybindSettings.Callback)
+						if not Success then
+							TweenService:Create(Keybind, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+							TweenService:Create(Keybind.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Transparency = 1}):Play()
+							Keybind.Title.Text = "Callback Error"
+							print("Rayfield | "..KeybindSettings.Name.." Callback Error " ..tostring(Response))
+							wait(0.5)
+							Keybind.Title.Text = KeybindSettings.Name
+							TweenService:Create(Keybind, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+							TweenService:Create(Keybind.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Transparency = 0}):Play()
+						end
+					else
+						wait(0.25)
+						if Held then
+							local Loop; Loop = RunService.Stepped:Connect(function()
+								if not Held then
+									KeybindSettings.Callback(false) -- maybe pcall this
+									Loop:Disconnect()
+								else
+									KeybindSettings.Callback(true) -- maybe pcall this
+								end
+							end)	
+						end
+					end
+				end
+			end)
+
+			Keybind.KeybindFrame.KeybindBox:GetPropertyChangedSignal("Text"):Connect(function()
+				TweenService:Create(Keybind.KeybindFrame, TweenInfo.new(0.55, Enum.EasingStyle.Quint, Enum.EasingDirection.Out), {Size = UDim2.new(0, Keybind.KeybindFrame.KeybindBox.TextBounds.X + 24, 0, 30)}):Play()
+			end)
+
+			function KeybindSettings:Set(NewKeybind)
+				Keybind.KeybindFrame.KeybindBox.Text = tostring(NewKeybind)
+				KeybindSettings.CurrentKeybind = tostring(NewKeybind)
+				Keybind.KeybindFrame.KeybindBox:ReleaseFocus()
+				SaveConfiguration()
+			end
+			if Settings.ConfigurationSaving then
+				if Settings.ConfigurationSaving.Enabled and KeybindSettings.Flag then
+					RayfieldLibrary.Flags[KeybindSettings.Flag] = KeybindSettings
+				end
+			end
+			return KeybindSettings
+		end
+
+		-- Toggle
+		function Tab:CreateToggle(ToggleSettings)
+			local ToggleValue = {}
+
+			local Toggle = Elements.Template.Toggle:Clone()
+			Toggle.Name = ToggleSettings.Name
+			Toggle.Title.Text = ToggleSettings.Name
+			Toggle.Visible = true
+			Toggle.Parent = TabPage
+
+			Toggle.BackgroundTransparency = 1
+			Toggle.UIStroke.Transparency = 1
+			Toggle.Title.TextTransparency = 1
+			Toggle.Switch.BackgroundColor3 = SelectedTheme.ToggleBackground
+			
+			if SelectedTheme ~= RayfieldLibrary.Theme.Default then
+				Toggle.Switch.Shadow.Visible = false
+			end
+
+			TweenService:Create(Toggle, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {BackgroundTransparency = 0}):Play()
+			TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {Transparency = 0}):Play()
+			TweenService:Create(Toggle.Title, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {TextTransparency = 0}):Play()	
+
+			if not ToggleSettings.CurrentValue then
+				Toggle.Switch.Indicator.Position = UDim2.new(1, -40, 0.5, 0)
+				Toggle.Switch.Indicator.UIStroke.Color = SelectedTheme.ToggleDisabledStroke
+				Toggle.Switch.Indicator.BackgroundColor3 = SelectedTheme.ToggleDisabled
+				Toggle.Switch.UIStroke.Color = SelectedTheme.ToggleDisabledOuterStroke
+			else
+				Toggle.Switch.Indicator.Position = UDim2.new(1, -20, 0.5, 0)
+				Toggle.Switch.Indicator.UIStroke.Color = SelectedTheme.ToggleEnabledStroke
+				Toggle.Switch.Indicator.BackgroundColor3 = SelectedTheme.ToggleEnabled
+				Toggle.Switch.UIStroke.Color = SelectedTheme.ToggleEnabledOuterStroke
+			end
+
+			Toggle.MouseEnter:Connect(function()
+				TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+			end)
+
+			Toggle.MouseLeave:Connect(function()
+				TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+			end)
+            
+            if ToggleSettings.CurrentValue then
+				local Success, Response = pcall(function()
+                	coroutine.resume(coroutine.create(function()
+				    	ToggleSettings.Callback(ToggleSettings.CurrentValue)
+					end))
+				end)
+				if not Success then
+        			print("Rayfield | "..ToggleSettings.Name.." Callback Error " ..tostring(Response))
+				end
+            end
+            
+			Toggle.Interact.MouseButton1Click:Connect(function()
+				if ToggleSettings.CurrentValue then
+					ToggleSettings.CurrentValue = false
+					TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Transparency = 1}):Play()
+					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.45, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {Position = UDim2.new(1, -40, 0.5, 0)}):Play()
+					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.4, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {Size = UDim2.new(0,12,0,12)}):Play()
+					TweenService:Create(Toggle.Switch.Indicator.UIStroke, TweenInfo.new(0.55, Enum.EasingStyle.Quint, Enum.EasingDirection.Out), {Color = SelectedTheme.ToggleDisabledStroke}):Play()
+					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.8, Enum.EasingStyle.Quint, Enum.EasingDirection.Out), {BackgroundColor3 = SelectedTheme.ToggleDisabled}):Play()
+					TweenService:Create(Toggle.Switch.UIStroke, TweenInfo.new(0.55, Enum.EasingStyle.Quint, Enum.EasingDirection.Out), {Color = SelectedTheme.ToggleDisabledOuterStroke}):Play()
+					wait(0.05)
+					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.4, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {Size = UDim2.new(0,17,0,17)}):Play()
+					wait(0.15)
+					TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Transparency = 0}):Play()	
+				else
+					ToggleSettings.CurrentValue = true
+					TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Transparency = 1}):Play()
+					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.5, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {Position = UDim2.new(1, -20, 0.5, 0)}):Play()
+					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.4, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {Size = UDim2.new(0,12,0,12)}):Play()
+					TweenService:Create(Toggle.Switch.Indicator.UIStroke, TweenInfo.new(0.55, Enum.EasingStyle.Quint, Enum.EasingDirection.Out), {Color = SelectedTheme.ToggleEnabledStroke}):Play()
+					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.8, Enum.EasingStyle.Quint, Enum.EasingDirection.Out), {BackgroundColor3 = SelectedTheme.ToggleEnabled}):Play()
+					TweenService:Create(Toggle.Switch.UIStroke, TweenInfo.new(0.55, Enum.EasingStyle.Quint, Enum.EasingDirection.Out), {Color = SelectedTheme.ToggleEnabledOuterStroke}):Play()
+					wait(0.05)
+					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.45, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {Size = UDim2.new(0,17,0,17)}):Play()	
+					wait(0.15)
+					TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Transparency = 0}):Play()		
+				end
+				
+				local Success, Response = pcall(function()
+					ToggleSettings.Callback(ToggleSettings.CurrentValue)
+				end)
+				if not Success then
+					TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Transparency = 1}):Play()
+					Toggle.Title.Text = "Callback Error"
+					print("Rayfield | "..ToggleSettings.Name.." Callback Error " ..tostring(Response))
+					wait(0.5)
+					Toggle.Title.Text = ToggleSettings.Name
+					TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Transparency = 0}):Play()
+				end
+				
+				SaveConfiguration()
+			end)
+
+			function ToggleSettings:Set(NewToggleValue)
+				if NewToggleValue then
+					ToggleSettings.CurrentValue = true
+					TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Transparency = 1}):Play()
+					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.5, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {Position = UDim2.new(1, -20, 0.5, 0)}):Play()
+					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.4, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {Size = UDim2.new(0,12,0,12)}):Play()
+					TweenService:Create(Toggle.Switch.Indicator.UIStroke, TweenInfo.new(0.55, Enum.EasingStyle.Quint, Enum.EasingDirection.Out), {Color = SelectedTheme.ToggleEnabledStroke}):Play()
+					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.8, Enum.EasingStyle.Quint, Enum.EasingDirection.Out), {BackgroundColor3 = SelectedTheme.ToggleEnabled}):Play()
+					TweenService:Create(Toggle.Switch.UIStroke, TweenInfo.new(0.55, Enum.EasingStyle.Quint, Enum.EasingDirection.Out), {Color = Color3.fromRGB(100,100,100)}):Play()
+					wait(0.05)
+					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.45, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {Size = UDim2.new(0,17,0,17)}):Play()	
+					wait(0.15)
+					TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Transparency = 0}):Play()	
+				else
+					ToggleSettings.CurrentValue = false
+					TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Transparency = 1}):Play()
+					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.45, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {Position = UDim2.new(1, -40, 0.5, 0)}):Play()
+					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.4, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {Size = UDim2.new(0,12,0,12)}):Play()
+					TweenService:Create(Toggle.Switch.Indicator.UIStroke, TweenInfo.new(0.55, Enum.EasingStyle.Quint, Enum.EasingDirection.Out), {Color = SelectedTheme.ToggleDisabledStroke}):Play()
+					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.8, Enum.EasingStyle.Quint, Enum.EasingDirection.Out), {BackgroundColor3 = SelectedTheme.ToggleDisabled}):Play()
+					TweenService:Create(Toggle.Switch.UIStroke, TweenInfo.new(0.55, Enum.EasingStyle.Quint, Enum.EasingDirection.Out), {Color = Color3.fromRGB(65,65,65)}):Play()
+					wait(0.05)
+					TweenService:Create(Toggle.Switch.Indicator, TweenInfo.new(0.4, Enum.EasingStyle.Quart, Enum.EasingDirection.Out), {Size = UDim2.new(0,17,0,17)}):Play()
+					wait(0.15)
+					TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Transparency = 0}):Play()	
+				end
+				local Success, Response = pcall(function()
+					ToggleSettings.Callback(ToggleSettings.CurrentValue)
+				end)
+				if not Success then
+					TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Transparency = 1}):Play()
+					Toggle.Title.Text = "Callback Error"
+					print("Rayfield | "..ToggleSettings.Name.." Callback Error " ..tostring(Response))
+					wait(0.5)
+					Toggle.Title.Text = ToggleSettings.Name
+					TweenService:Create(Toggle, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+					TweenService:Create(Toggle.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Transparency = 0}):Play()
+				end
+				SaveConfiguration()
+			end
+
+			if Settings.ConfigurationSaving then
+				if Settings.ConfigurationSaving.Enabled and ToggleSettings.Flag then
+					RayfieldLibrary.Flags[ToggleSettings.Flag] = ToggleSettings
+				end
+			end
+
+			return ToggleSettings
+		end
+
+		-- Slider
+		function Tab:CreateSlider(SliderSettings)
+			local Dragging = false
+			local Slider = Elements.Template.Slider:Clone()
+			Slider.Name = SliderSettings.Name
+			Slider.Title.Text = SliderSettings.Name
+			Slider.Visible = true
+			Slider.Parent = TabPage
+
+			Slider.BackgroundTransparency = 1
+			Slider.UIStroke.Transparency = 1
+			Slider.Title.TextTransparency = 1
+			
+			if SelectedTheme ~= RayfieldLibrary.Theme.Default then
+				Slider.Main.Shadow.Visible = false
+			end
+			
+			Slider.Main.BackgroundColor3 = SelectedTheme.SliderBackground
+			Slider.Main.UIStroke.Color = SelectedTheme.SliderStroke
+			Slider.Main.Progress.BackgroundColor3 = SelectedTheme.SliderProgress
+
+			TweenService:Create(Slider, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {BackgroundTransparency = 0}):Play()
+			TweenService:Create(Slider.UIStroke, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {Transparency = 0}):Play()
+			TweenService:Create(Slider.Title, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {TextTransparency = 0}):Play()	
+
+			Slider.Main.Progress.Size =	UDim2.new(0, Slider.Main.AbsoluteSize.X * ((SliderSettings.CurrentValue + SliderSettings.Range[1]) / (SliderSettings.Range[2] - SliderSettings.Range[1])) > 5 and Slider.Main.AbsoluteSize.X * (SliderSettings.CurrentValue / (SliderSettings.Range[2] - SliderSettings.Range[1])) or 5, 1, 0)
+
+			if not SliderSettings.Suffix then
+				Slider.Main.Information.Text = tostring(SliderSettings.CurrentValue)
+			else
+				Slider.Main.Information.Text = tostring(SliderSettings.CurrentValue) .. " " .. SliderSettings.Suffix
+			end
+
+
+			Slider.MouseEnter:Connect(function()
+				TweenService:Create(Slider, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = SelectedTheme.ElementBackgroundHover}):Play()
+			end)
+
+			Slider.MouseLeave:Connect(function()
+				TweenService:Create(Slider, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+			end)
+			
+			Slider.Main.Interact.InputBegan:Connect(function(Input)
+				if Input.UserInputType == Enum.UserInputType.MouseButton1 then 
+					Dragging = true 
+				end 
+			end)
+			Slider.Main.Interact.InputEnded:Connect(function(Input) 
+				if Input.UserInputType == Enum.UserInputType.MouseButton1 then 
+					Dragging = false 
+				end 
+			end)
+
+			Slider.Main.Interact.MouseButton1Down:Connect(function(X)
+				local Current = Slider.Main.Progress.AbsolutePosition.X + Slider.Main.Progress.AbsoluteSize.X
+				local Start = Current
+				local Location = X
+				local Loop; Loop = RunService.Stepped:Connect(function()
+					if Dragging then
+						Location = UserInputService:GetMouseLocation().X
+						Current = Current + 0.025 * (Location - Start)
+
+						if Location < Slider.Main.AbsolutePosition.X then
+							Location = Slider.Main.AbsolutePosition.X
+						elseif Location > Slider.Main.AbsolutePosition.X + Slider.Main.AbsoluteSize.X then
+							Location = Slider.Main.AbsolutePosition.X + Slider.Main.AbsoluteSize.X
+						end
+
+						if Current < Slider.Main.AbsolutePosition.X + 5 then
+							Current = Slider.Main.AbsolutePosition.X + 5
+						elseif Current > Slider.Main.AbsolutePosition.X + Slider.Main.AbsoluteSize.X then
+							Current = Slider.Main.AbsolutePosition.X + Slider.Main.AbsoluteSize.X
+						end
+
+						if Current <= Location and (Location - Start) < 0 then
+							Start = Location
+						elseif Current >= Location and (Location - Start) > 0 then
+							Start = Location
+						end
+						TweenService:Create(Slider.Main.Progress, TweenInfo.new(0.45, Enum.EasingStyle.Quint, Enum.EasingDirection.Out), {Size = UDim2.new(0, Current - Slider.Main.AbsolutePosition.X, 1, 0)}):Play()
+						local NewValue = SliderSettings.Range[1] + (Location - Slider.Main.AbsolutePosition.X) / Slider.Main.AbsoluteSize.X * (SliderSettings.Range[2] - SliderSettings.Range[1])
+
+						NewValue = math.floor(NewValue / SliderSettings.Increment + 0.5) * (SliderSettings.Increment * 10000000) / 10000000
+						if not SliderSettings.Suffix then
+							Slider.Main.Information.Text = tostring(NewValue)
+						else
+							Slider.Main.Information.Text = tostring(NewValue) .. " " .. SliderSettings.Suffix
+						end
+
+						if SliderSettings.CurrentValue ~= NewValue then
+							local Success, Response = pcall(function()
+								SliderSettings.Callback(NewValue)
+							end)
+							if not Success then
+								TweenService:Create(Slider, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+								TweenService:Create(Slider.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Transparency = 1}):Play()
+								Slider.Title.Text = "Callback Error"
+								print("Rayfield | "..SliderSettings.Name.." Callback Error " ..tostring(Response))
+								wait(0.5)
+								Slider.Title.Text = SliderSettings.Name
+								TweenService:Create(Slider, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+								TweenService:Create(Slider.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Transparency = 0}):Play()
+							end
+							
+							SliderSettings.CurrentValue = NewValue
+							SaveConfiguration()
+						end
+					else
+						TweenService:Create(Slider.Main.Progress, TweenInfo.new(0.3, Enum.EasingStyle.Quint, Enum.EasingDirection.Out), {Size = UDim2.new(0, Location - Slider.Main.AbsolutePosition.X > 5 and Location - Slider.Main.AbsolutePosition.X or 5, 1, 0)}):Play()
+						Loop:Disconnect()
+					end
+				end)
+			end)
+
+			function SliderSettings:Set(NewVal)
+				TweenService:Create(Slider.Main.Progress, TweenInfo.new(0.45, Enum.EasingStyle.Quint, Enum.EasingDirection.Out), {Size = UDim2.new(0, Slider.Main.AbsoluteSize.X * ((NewVal + SliderSettings.Range[1]) / (SliderSettings.Range[2] - SliderSettings.Range[1])) > 5 and Slider.Main.AbsoluteSize.X * (NewVal / (SliderSettings.Range[2] - SliderSettings.Range[1])) or 5, 1, 0)}):Play()
+				Slider.Main.Information.Text = tostring(NewVal) .. " " .. SliderSettings.Suffix
+				local Success, Response = pcall(function()
+					SliderSettings.Callback(NewVal)
+				end)
+				if not Success then
+					TweenService:Create(Slider, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = Color3.fromRGB(85, 0, 0)}):Play()
+					TweenService:Create(Slider.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Transparency = 1}):Play()
+					Slider.Title.Text = "Callback Error"
+					print("Rayfield | "..SliderSettings.Name.." Callback Error " ..tostring(Response))
+					wait(0.5)
+					Slider.Title.Text = SliderSettings.Name
+					TweenService:Create(Slider, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {BackgroundColor3 = SelectedTheme.ElementBackground}):Play()
+					TweenService:Create(Slider.UIStroke, TweenInfo.new(0.6, Enum.EasingStyle.Quint), {Transparency = 0}):Play()
+				end
+				SliderSettings.CurrentValue = NewVal
+				SaveConfiguration()
+			end
+			if Settings.ConfigurationSaving then
+				if Settings.ConfigurationSaving.Enabled and SliderSettings.Flag then
+					RayfieldLibrary.Flags[SliderSettings.Flag] = SliderSettings
+				end
+			end
+			return SliderSettings
+		end
+
+
+		return Tab
+	end
+
+	Elements.Visible = true
+
+	wait(1.2)
+	TweenService:Create(LoadingFrame.Title, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
+	TweenService:Create(LoadingFrame.Subtitle, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
+	TweenService:Create(LoadingFrame.Version, TweenInfo.new(0.5, Enum.EasingStyle.Quint), {TextTransparency = 1}):Play()
+	wait(0.2)
+	TweenService:Create(Main, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {Size = UDim2.new(0, 500, 0, 475)}):Play()
+	TweenService:Create(Main.Shadow.Image, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {ImageTransparency = 0.4}):Play()
+
+	Topbar.BackgroundTransparency = 1
+	Topbar.Divider.Size = UDim2.new(0, 0, 0, 1)
+	Topbar.CornerRepair.BackgroundTransparency = 1
+	Topbar.Title.TextTransparency = 1
+	Topbar.ChangeSize.ImageTransparency = 1
+	Topbar.Hide.ImageTransparency = 1
+
+	wait(0.8)
+	Topbar.Visible = true
+	TweenService:Create(Topbar, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {BackgroundTransparency = 0}):Play()
+	TweenService:Create(Topbar.CornerRepair, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {BackgroundTransparency = 0}):Play()
+	wait(0.1)
+	TweenService:Create(Topbar.Divider, TweenInfo.new(1, Enum.EasingStyle.Quint), {Size = UDim2.new(1, 0, 0, 1)}):Play()
+	wait(0.1)
+	TweenService:Create(Topbar.Title, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {TextTransparency = 0}):Play()
+	wait(0.1)
+	TweenService:Create(Topbar.ChangeSize, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {ImageTransparency = 0.8}):Play()
+	wait(0.1)
+	TweenService:Create(Topbar.Hide, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {ImageTransparency = 0.8}):Play()
+	wait(0.3)
+	
+	return Window
+end
+
+
+function RayfieldLibrary:Destroy()
+	Rayfield:Destroy()
+end
+
+Topbar.ChangeSize.MouseButton1Click:Connect(function()
+	if Debounce then return end
+	if Minimised then
+		Minimised = false
+		Maximise()
+	else
+		Minimised = true
+		Minimise()
+	end
+end)
+
+Topbar.Hide.MouseButton1Click:Connect(function()
+	if Debounce then return end
+	if Hidden then
+		Hidden = false
+		Minimised = false
+		Unhide()
+	else
+		Hidden = true
+		Hide()
+	end
+end)
+
+UserInputService.InputBegan:Connect(function(input, processed)
+	if (input.KeyCode == Enum.KeyCode.RightShift and not processed) then
+		if Debounce then return end
+		if Hidden then
+			Hidden = false
+			Unhide()
+		else
+			Hidden = true
+			Hide()
+		end
+	end
+end)
+
+for _, TopbarButton in ipairs(Topbar:GetChildren()) do
+	if TopbarButton.ClassName == "ImageButton" then
+		TopbarButton.MouseEnter:Connect(function()
+			TweenService:Create(TopbarButton, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {ImageTransparency = 0}):Play()
+		end)
+
+		TopbarButton.MouseLeave:Connect(function()
+			TweenService:Create(TopbarButton, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {ImageTransparency = 0.8}):Play()
+		end)
+
+		TopbarButton.MouseButton1Click:Connect(function()
+			TweenService:Create(TopbarButton, TweenInfo.new(0.7, Enum.EasingStyle.Quint), {ImageTransparency = 0.8}):Play()
+		end)
+	end
+end
+
+
+function RayfieldLibrary:LoadConfiguration()
+	if CEnabled then
+		pcall(function()
+			if isfile(ConfigurationFolder .. "/" .. CFileName .. ConfigurationExtension) then
+				LoadConfiguration(readfile(ConfigurationFolder .. "/" .. CFileName .. ConfigurationExtension))
+				RayfieldLibrary:Notify({Title = "Configuration Loaded", Content = "The configuration file for this script has been loaded from a previous session"})
+			end
+		end)
+	end
+end
+
+task.delay(5, RayfieldLibrary.LoadConfiguration, RayfieldLibrary)
+
+local Rayfield = RayfieldLibrary
